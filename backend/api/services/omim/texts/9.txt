@@ -1,0 +1,331 @@
+Gene Map Search - '(Search in: Entries with: Phenotype, Chromosomes: Autosomal, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, X, Y)'
+Downloaded:	November 7th, 2025
+Copyright (c) 1966-2025 Johns Hopkins University OMIM, data are provided for research purposes only.
+
+Cytogenetic location	Genomic coordinates (From NCBI/GRCh38)	Gene/Locus	Gene/Locus name	Gene/Locus MIM number	Approved Symbol	Entrez Gene ID	Ensembl Gene ID	Comments	Phenotype	Phenotype MIM number	Inheritance	Pheno map key	Mouse Gene (from MGI)
+4q31.3	4:151670504-151761007	GATB, PET112, COXPD41	Glutamyl-tRNA amidotransferase, subunit B	603645	GATB	5188	ENSG00000059691,ENST00000263985;;;ENST00000263985	mutation identified in 1 COXPD41 family	?Combined oxidative phosphorylation deficiency 41	618838	AR	3	Gatb
+4q31.3	4:152320544-152536092	FBXW7, AGO, CDC4, DEDHIL	F-box and WD40 domain protein 7	606278	FBXW7	55294	ENSG00000109670,ENST00000281708;;;ENST00000281708		Developmental delay, hypotonia, and impaired language	620012	AD	3	Fbxw7
+4q31.3	4:153152163-153339317	TRIM2, KIAA0517, CMT2R	Tripartite motif-containing protein 2	614141	TRIM2	23321	ENSG00000109654,ENST00000338700;;;ENST00000338700		Charcot-Marie-Tooth disease, type 2R	615490	AR	3	Trim2
+4q31.3	4:153684280-153710637	TLR2, TIL4	Toll-like receptor-2	603028	TLR2	7097	ENSG00000137462,ENST00000642700;;;ENST00000642700		{Colorectal cancer, susceptibility to}	114500	AD, SMu	3	Tlr2
+4q31.3	4:153684280-153710637	TLR2, TIL4	Toll-like receptor-2	603028	TLR2	7097	ENSG00000137462,ENST00000642700;;;ENST00000642700		{Leprosy, susceptibility to}	246300	AD	3	Tlr2
+4q31.3	4:153684280-153710637	TLR2, TIL4	Toll-like receptor-2	603028	TLR2	7097	ENSG00000137462,ENST00000642700;;;ENST00000642700		{Mycobacterium tuberculosis, susceptibility to}	607948		3	Tlr2
+4q31.3	4:154562980-154572807	FGB	Fibrinogen, beta polypeptide	134830	FGB	2244	ENSG00000171564,ENST00000302068;;;ENST00000302068	4q31 by A; proximal to GYPB/GYPA	Afibrinogenemia, congenital	202400	AR	3	Fgb
+4q31.3	4:154562980-154572807	FGB	Fibrinogen, beta polypeptide	134830	FGB	2244	ENSG00000171564,ENST00000302068;;;ENST00000302068	4q31 by A; proximal to GYPB/GYPA	Dysfibrinogenemia, congenital	616004	AD	3	Fgb
+4q31.3	4:154562980-154572807	FGB	Fibrinogen, beta polypeptide	134830	FGB	2244	ENSG00000171564,ENST00000302068;;;ENST00000302068	4q31 by A; proximal to GYPB/GYPA	Hypofibrinogenemia, congenital	202400	AR	3	Fgb
+4q31.3	4:154583126-154590742	FGA, AMYLD2	Fibrinogen, alpha chain	134820	FGA	2243	ENSG00000171560,ENST00000403106;;;ENST00000403106		Afibrinogenemia, congenital	202400	AR	3	Fga
+4q31.3	4:154583126-154590742	FGA, AMYLD2	Fibrinogen, alpha chain	134820	FGA	2243	ENSG00000171560,ENST00000403106;;;ENST00000403106		Amyloidosis, hereditary systemic 2	105200	AD	3	Fga
+4q31.3	4:154583126-154590742	FGA, AMYLD2	Fibrinogen, alpha chain	134820	FGA	2243	ENSG00000171560,ENST00000403106;;;ENST00000403106		Dysfibrinogenemia, congenital	616004	AD	3	Fga
+4q31.3	4:154583126-154590742	FGA, AMYLD2	Fibrinogen, alpha chain	134820	FGA	2243	ENSG00000171560,ENST00000403106;;;ENST00000403106		Hypodysfibrinogenemia, congenital	616004	AD	3	Fga
+4q32-q34	4:154600001-182300000	RP29	Retinitis pigmentosa 29	612165		54110		maximum lod at D4S415	Retinitis pigmentosa 29	612165	AR	2	
+4q32.1-q32.2	4:154600001-163600000	TRIP4q32.1q32.2, C4TRIPq32.1q32.2	Chromosome 4q32.1-q32.2 triplication syndrome	613603					Chromosome 4q32.1-q32.2 triplication syndrome	613603	AD	4	
+4q32.1	4:154604136-154612656	FGG	Fibrinogen, gamma polypeptide	134850	FGG	2266	ENSG00000171557,ENST00000336098;;;ENST00000336098	linked to MN	Afibrinogenemia, congenital	202400	AR	3	Fgg
+4q32.1	4:154604136-154612656	FGG	Fibrinogen, gamma polypeptide	134850	FGG	2266	ENSG00000171557,ENST00000336098;;;ENST00000336098	linked to MN	Dysfibrinogenemia, congenital	616004	AD	3	Fgg
+4q32.1	4:154604136-154612656	FGG	Fibrinogen, gamma polypeptide	134850	FGG	2266	ENSG00000171557,ENST00000336098;;;ENST00000336098	linked to MN	Hypodysfibrinogenemia	616004	AD	3	Fgg
+4q32.1	4:154604136-154612656	FGG	Fibrinogen, gamma polypeptide	134850	FGG	2266	ENSG00000171557,ENST00000336098;;;ENST00000336098	linked to MN	Hypofibrinogenemia, congenital	202400	AR	3	Fgg
+4q32.1	4:154740838-154753120	LRAT, LCA14	Lecithin retinol acyltransferase	604863	LRAT	9227	ENSG00000121207,ENST00000336356;;;ENST00000336356		Leber congenital amaurosis 14	613341	AR	3	Lrat
+4q32.1	4:154740838-154753120	LRAT, LCA14	Lecithin retinol acyltransferase	604863	LRAT	9227	ENSG00000121207,ENST00000336356;;;ENST00000336356		Retinal dystrophy, early-onset severe	613341	AR	3	Lrat
+4q32.1	4:154740838-154753120	LRAT, LCA14	Lecithin retinol acyltransferase	604863	LRAT	9227	ENSG00000121207,ENST00000336356;;;ENST00000336356		Retinitis pigmentosa, juvenile	613341	AR	3	Lrat
+4q32.1	4:155666848-155737059	GUCY1A1, GUCY1A3, GUC1A3, GUCSA3, MYMY6	Guanylate cyclase 1, soluble, alpha 1	139396	GUCY1A1	2982	ENSG00000164116,ENST00000506455;;;ENST00000506455		Moyamoya 6 with achalasia	615750	AR	3	Gucy1a1
+4q32.1	4:155903696-155920406	TDO2, TPH2, TRPO, HYPTRP	Tryptophan oxygenase	191070	TDO2	6999	ENSG00000151790,ENST00000536354;;;ENST00000536354	mutation identified in 1 HYPTRP patient	[?Hypertryptophanemia]	600627	AR	3	Tdo2
+4q32.1	4:157076150-157172090	GLRB, HKPX2	Glycine receptor, beta subunit	138492	GLRB	2743	ENSG00000109738,ENST00000264428;;;ENST00000264428		Hyperekplexia 2	614619	AR	3	Glrb
+4q32.1	4:157220120-157366075	GRIA2, GLUR2, NEDLIB	Glutamate receptor, ionotropic, AMPA 2	138247	GRIA2	2891	ENSG00000120251,ENST00000264426;;;ENST00000264426		Neurodevelopmental disorder with language impairment and behavioral abnormalities	618917	AD	3	Gria2
+4q32.1	4:158672296-158709623	ETFDH, MADD	Electron transfer flavoprotein:ubiquinone oxidoreductase	231675	ETFDH	2110	ENSG00000171503,ENST00000511912;;;ENST00000511912		Glutaric acidemia IIC	231680	AR	3	Etfdh
+4q32.1	4:159103079-159360173	RAPGEF2, NRAPGEP, RAGEF, KIAA0313	Rap guanine nucleotide exchange factor 2	609530	RAPGEF2	9693	ENSG00000109756,ENST00000691494;;;ENST00000691494	mutation identified in 1 FAME7 patient	?Epilepsy, familial adult myoclonic, 7	618075	AD	3	Rapgef2
+4q32.2	4:163103929-163166890	NAF1, PFBMFT7	Nuclear assembly factor 1 ribonucleoprotein	617868	NAF1	92345	ENSG00000145414,ENST00000274054;;;ENST00000274054		Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 7	620365	AD	3	Naf1
+4q32.3	4:163600001-169200000	CINN	Cinnamon odor, pleasantness of	611109		100188835		max lod at AFM295YES	[Cinnamon odor, pleasantness of]	611109		2	
+4q32.3	4:163600001-169200000	HDLCQ4	High density lipoprotein cholesterol level QTL 4	610239		100188806		between D4S1597 and D4S1539	[High density lipoprotein cholesterol level QTL 4]	610239		2	
+4q32.3	4:165327669-165343164	MSMO1, SC4MOL, ERG25, MCCPD	Methylsterol monooxygenase 1	607545	MSMO1	6307	ENSG00000052802,ENST00000261507;;;ENST00000261507		Microcephaly, congenital cataract, and psoriasiform dermatitis	616834	AR	3	Msmo1
+4q32.3	4:165379008-165498547	CPE, BDVS	Carboxypeptidase E	114855	CPE	1363	ENSG00000109472,ENST00000402744;;;ENST00000402744		BDV syndrome	619326	AR	3	Cpe
+4q32.3	4:165873237-166104457	TLL1, TLL, ASD6	Tolloid-like 1	606742	TLL1	7092	ENSG00000038295,ENST00000061240;;;ENST00000061240		Atrial septal defect 6	613087	AD	3	Tll1
+4q32.3	4:168497052-168928441	PALLD, KIAA0992, PNCA1	Palladin, cytoskeletal-associated protein	608092	PALLD	23022	ENSG00000129116,ENST00000505667;;;ENST00000505667		{Pancreatic cancer, susceptibility to, 1}	606856	AD	3	Palld
+4q33-qter	4:169200001-190214555	HCA1	Hypercalciuria, absorptive, 1	607258		266790			Hypercalciuria, absorptive	607258		2	
+4q33	4:169392809-169612583	NEK1, SRTD6, SRPS2A, ALS24, OFD2	NIMA-related kinase 1	604588	NEK1	4750	ENSG00000137601,ENST00000507142;;;ENST00000507142	1 patient showed heterozygous NEK2 and DYNC2H1 mutations; mutation identified in 1 OFD2 family	?Orofaciodigital syndrome II	252100	AR	3	Nek1
+4q33	4:169392809-169612583	NEK1, SRTD6, SRPS2A, ALS24, OFD2	NIMA-related kinase 1	604588	NEK1	4750	ENSG00000137601,ENST00000507142;;;ENST00000507142	1 patient showed heterozygous NEK2 and DYNC2H1 mutations; mutation identified in 1 OFD2 family	{Amyotrophic lateral sclerosis, susceptibility to, 24}	617892	AD	3	Nek1
+4q33	4:169392809-169612583	NEK1, SRTD6, SRPS2A, ALS24, OFD2	NIMA-related kinase 1	604588	NEK1	4750	ENSG00000137601,ENST00000507142;;;ENST00000507142	1 patient showed heterozygous NEK2 and DYNC2H1 mutations; mutation identified in 1 OFD2 family	Short-rib thoracic dysplasia 6 with or without polydactyly	263520	AR, DR	3	Nek1
+4q33	4:169620578-169723673	CLCN3, NEDHYBA, NEDSBA	Chloride channel-3	600580	CLCN3	1182	ENSG00000109572,ENST00000513761;;;ENST00000513761	mutation identified in 1 NEDSBA family	Neurodevelopmental disorder with hypotonia and brain abnormalities	619512	AD	3	Clcn3
+4q33	4:169620578-169723673	CLCN3, NEDHYBA, NEDSBA	Chloride channel-3	600580	CLCN3	1182	ENSG00000109572,ENST00000513761;;;ENST00000513761	mutation identified in 1 NEDSBA family	Neurodevelopmental disorder with seizures and brain abnormalities	619517	AR	3	Clcn3
+4q34.1	4:174490175-174522893	HPGD, PGDH1, PHOAR1	Hydroxyprostaglandin dehydrogenase 15-(NAD)	601688	HPGD	3248	ENSG00000164120,ENST00000296522;;;ENST00000296522	mutation identified in 1 DIGC family	?Digital clubbing, isolated congenital	119900	AR	3	Hpgd
+4q34.1	4:174490175-174522893	HPGD, PGDH1, PHOAR1	Hydroxyprostaglandin dehydrogenase 15-(NAD)	601688	HPGD	3248	ENSG00000164120,ENST00000296522;;;ENST00000296522	mutation identified in 1 DIGC family	Cranioosteoarthropathy	259100	AR	3	Hpgd
+4q34.1	4:174490175-174522893	HPGD, PGDH1, PHOAR1	Hydroxyprostaglandin dehydrogenase 15-(NAD)	601688	HPGD	3248	ENSG00000164120,ENST00000296522;;;ENST00000296522	mutation identified in 1 DIGC family	Hypertrophic osteoarthropathy, primary, autosomal recessive 1	259100	AR	3	Hpgd
+4q34.3-q35.2	4:176600001-190214555	HMSN5	Hereditary motor and sensory neuropathy V	600361		101059903		D4S1552 and D4S2930	Hereditary motor and sensory neuropathy V	600361	AD	2	
+4q34.3-q35.1	4:176600001-186200000	SCA30	Spinocerebellar ataxia 30	613371		100359393		between rs1397413 and rs2175476; max lod 3.0	?Spinocerebellar ataxia 30	613371	AD	2	
+4q34.3	4:176683538-176792922	VEGFC, VRP, LMPHM4	Vascular endothelial growth factor C	601528	VEGFC	7424	ENSG00000150630,ENST00000618562;;;ENST00000618562		Lymphatic malformation 4	615907	AD	3	Vegfc
+4q34.3	4:177430774-177442437	AGA	Aspartylglucosaminidase	613228	AGA	175	ENSG00000038002,ENST00000264595;;;ENST00000264595		Aspartylglucosaminuria	208400	AR	3	Aga
+4q34.3-q35.1	4:181447613-182803024	TENM3, ODZ3, TNM3, KIAA1455, MCOPCB9, MCOPS15	Teneurin transmembrane protein 3	610083	TENM3	55714	ENSG00000218336,ENST00000511685;;;ENST00000511685	mutation identified in 1 MCOPCB9 family	?Microphthalmia/coloboma 9	615145	AR	3	Tenm3
+4q34.3-q35.1	4:181447613-182803024	TENM3, ODZ3, TNM3, KIAA1455, MCOPCB9, MCOPS15	Teneurin transmembrane protein 3	610083	TENM3	55714	ENSG00000218336,ENST00000511685;;;ENST00000511685	mutation identified in 1 MCOPCB9 family	Microphthalmia, syndromic 15	615145	AR	3	Tenm3
+4q35-qter	4:182300001-190214555	DFNA24	Deafness, autosomal dominant 24	606282		23723			Deafness, autosomal dominant 24	606282	AD	2	
+4q35	4:182300001-190214555	DKBI	Dyskeratosis, hereditary benign intraepithelial	127600		80870			Dyskeratosis, hereditary benign intraepithelial	127600	AD	2	
+4q35	4:182300001-190214555	FSHD1, FSHD1A	Facioscapulohumeral muscular dystrophy 1	158900				due to D4Z4 macrosatellite repeat on 4q35	Facioscapulohumeral muscular dystrophy 1	158900	AD	4	
+4q35.1	4:183659293-183713589	TRAPPC11, C4orf41, LGMDR18	Trafficking protein particle complex, subunit 11	614138	TRAPPC11	60684	ENSG00000168538,ENST00000334690;;;ENST00000334690		Muscular dystrophy, limb-girdle, autosomal recessive 18	615356	AR	3	Trappc11
+4q35.1	4:184649738-184694952	PRIMPOL, CCDC111, MYP22	Primase and DNA directed polymerase	615421	PRIMPOL	201973	ENSG00000164306,ENST00000314970;;;ENST00000314970		Myopia 22, autosomal dominant	615420	AD	3	Primpol
+4q35.1	4:185143266-185150382	SLC25A4, ANT1, T1, PEO3, PEO2, MTDPS12A, PEOA2	Solute carrier family 25 (mitochondrial carrier) member 4 (adenine nucleotide translocator-1, skeletal muscle)	103220	SLC25A4	291	ENSG00000151729,ENST00000281456;;;ENST00000281456		Mitochondrial DNA depletion syndrome 12A (cardiomyopathic type) AD	617184	AD	3	Slc25a4
+4q35.1	4:185143266-185150382	SLC25A4, ANT1, T1, PEO3, PEO2, MTDPS12A, PEOA2	Solute carrier family 25 (mitochondrial carrier) member 4 (adenine nucleotide translocator-1, skeletal muscle)	103220	SLC25A4	291	ENSG00000151729,ENST00000281456;;;ENST00000281456		Mitochondrial DNA depletion syndrome 12B (cardiomyopathic type) AR	615418	AR	3	Slc25a4
+4q35.1	4:185143266-185150382	SLC25A4, ANT1, T1, PEO3, PEO2, MTDPS12A, PEOA2	Solute carrier family 25 (mitochondrial carrier) member 4 (adenine nucleotide translocator-1, skeletal muscle)	103220	SLC25A4	291	ENSG00000151729,ENST00000281456;;;ENST00000281456		Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 2	609283	AD	3	Slc25a4
+4q35.1	4:185399537-185425964	UFSP2, C4orf20, BHD, SEMDDR, DEE106	UFM1-specific peptidase 2	611482	UFSP2	55325	ENSG00000109775,ENST00000264689;;;ENST00000264689	mutation identified in 1 BHD family	?Hip dysplasia, Beukes type	142669	AD	3	Ufsp2
+4q35.1	4:185399537-185425964	UFSP2, C4orf20, BHD, SEMDDR, DEE106	UFM1-specific peptidase 2	611482	UFSP2	55325	ENSG00000109775,ENST00000264689;;;ENST00000264689	mutation identified in 1 BHD family	Developmental and epileptic encephalopathy 106	620028	AR	3	Ufsp2
+4q35.1	4:185399537-185425964	UFSP2, C4orf20, BHD, SEMDDR, DEE106	UFM1-specific peptidase 2	611482	UFSP2	55325	ENSG00000109775,ENST00000264689;;;ENST00000264689	mutation identified in 1 BHD family	Spondyloepimetaphyseal dysplasia, Di Rocco type	617974	AD	3	Ufsp2
+4q35.1	4:186069156-186088073	TLR3, IMD83	Toll-like receptor-3	603029	TLR3	7098	ENSG00000164342,ENST00000296795;;;ENST00000296795		{HIV1 infection, resistance to}	609423		3	Tlr3
+4q35.1	4:186069156-186088073	TLR3, IMD83	Toll-like receptor-3	603029	TLR3	7098	ENSG00000164342,ENST00000296795;;;ENST00000296795		{Immunodeficiency 83, susceptibility to viral infections}	613002	AD, AR	3	Tlr3
+4q35.1-q35.2	4:186191567-186213463	CYP4V2, BCD	Cytochrome P450, family 4, subfamily V, polypeptide 2	608614	CYP4V2	285440	ENSG00000145476,ENST00000378802;;;ENST00000378802		Bietti crystalline corneoretinal dystrophy	210370	AR	3	Cyp4v3
+4q35.2	4:186210853-186258471	KLKB1, KLK3, PKKD	Kallikrein B plasma 1 (Fletcher factor)	229000	KLKB1	3818	ENSG00000164344,ENST00000264690;;;ENST00000264690	similar to F11	Fletcher factor (prekallikrein) deficiency	612423	AR	3	Klkb1
+4q35.2	4:186266189-186290710	F11	Coagulation factor XI (plasma thromboplastin antecedent)	264900	F11	2160	ENSG00000088926,ENST00000403665;;;ENST00000403665	not closely linked to MNS	Factor XI deficiency, autosomal dominant	612416		3	F11
+4q35.2	4:186266189-186290710	F11	Coagulation factor XI (plasma thromboplastin antecedent)	264900	F11	2160	ENSG00000088926,ENST00000403665;;;ENST00000403665	not closely linked to MNS	Factor XI deficiency, autosomal recessive	612416		3	F11
+5p	5:1-48800001	ASD1	Atrial septal defect 1	108800		431		max lod at D5S406	Atrial septal defect 1	108800	AD	2	
+5p15.33	5:1-4400000	BCC3	Basal cell carcinoma, susceptibility to, 3	613059		100307120			{Basal cell carcinoma, susceptibility to, 3}	613059		2	
+5p15.33	5:1-4400000	GLM8	Glioma susceptibility 8	613033		100316847		associated with rs2736100	{Glioma susceptibility 8}	613033		2	
+5p15.33	5:1-4400000	LNCR3	Lung cancer susceptibility 3	612571		100271687		associated with rs402710 and rs2736100	{Lung cancer susceptibility 3}	612571		2	
+5p	5:1-48800001	MHS6	Malignant hyperthermia susceptibility 6	601888		4266			{Malignant hyperthermia susceptibility 6}	601888		2	
+5p15.33-p15.2	5:1-15000000	MYP16	Myopia 16	612554		100270641		max lod at D5S2505	Myopia 16	612554		2	
+5p15	5:1-18400000	TST2	Tuberculin skin test reactivity quantitative trait locus	613637		100526823		max lod at 16:2.70Mb	[Tuberculin skin test reactivity QTL]	613637		2	
+5p15.33	5:218320-268746	SDHA, SDH1, SDHF, CMD1GG, PPGL5, MC2DN1, NDAXOA	Succinate dehydrogenase complex, flavoprotein subunit A	600857	SDHA	6389	ENSG00000073578,ENST00000264932;;;ENST00000264932	copy on 3q29	Cardiomyopathy, dilated, 1GG	613642	AR	3	Sdha
+5p15.33	5:218320-268746	SDHA, SDH1, SDHF, CMD1GG, PPGL5, MC2DN1, NDAXOA	Succinate dehydrogenase complex, flavoprotein subunit A	600857	SDHA	6389	ENSG00000073578,ENST00000264932;;;ENST00000264932	copy on 3q29	Mitochondrial complex II deficiency, nuclear type 1	252011	AR	3	Sdha
+5p15.33	5:218320-268746	SDHA, SDH1, SDHF, CMD1GG, PPGL5, MC2DN1, NDAXOA	Succinate dehydrogenase complex, flavoprotein subunit A	600857	SDHA	6389	ENSG00000073578,ENST00000264932;;;ENST00000264932	copy on 3q29	Neurodegeneration with ataxia and late-onset optic atrophy	619259	AD	3	Sdha
+5p15.33	5:218320-268746	SDHA, SDH1, SDHF, CMD1GG, PPGL5, MC2DN1, NDAXOA	Succinate dehydrogenase complex, flavoprotein subunit A	600857	SDHA	6389	ENSG00000073578,ENST00000264932;;;ENST00000264932	copy on 3q29	Pheochromocytoma/paraganglioma syndrome 5	614165	AD	3	Sdha
+5p15.33	5:470456-524449	SLC9A3, NHE3, DIAR8	Solute carrier family 9 (sodium/hydrogen exchanger), member 3	182307	SLC9A3	6550	ENSG00000066230,ENST00000264938;;;ENST00000264938	pseudogene on chr.10	Diarrhea 8, secretory sodium, congenital	616868	AR	3	Slc9a3
+5p15.33	5:892884-919348	TRIP13, 16E1BP, MVA3, OZEMA9	Thyroid hormone receptor interactor 13	604507	TRIP13	9319	ENSG00000071539,ENST00000166345;;;ENST00000166345		Mosaic variegated aneuploidy syndrome 3	617598	AR	3	Trip13
+5p15.33	5:892884-919348	TRIP13, 16E1BP, MVA3, OZEMA9	Thyroid hormone receptor interactor 13	604507	TRIP13	9319	ENSG00000071539,ENST00000166345;;;ENST00000166345		Oocyte/zygote/embryo maturation arrest 9	619011	AR	3	Trip13
+5p15.33	5:1201595-1225111	SLC6A19, HND	Solute carrier family 6 (neurotransmitter transporter), member 19	608893	SLC6A19	340024	ENSG00000174358,ENST00000304460;;;ENST00000304460		Hartnup disorder	234500	AR	3	Slc6a19
+5p15.33	5:1253167-1295068	TERT, TCS1, EST2, DKCA2, DKCB4, PFBMFT1, CMM9	Telomerase reverse transcriptase	187270	TERT	7015	ENSG00000164362,ENST00000310581;;;ENST00000310581	deleted in cri du chat	{Leukemia, acute myeloid}	601626	AD, SMu	3	Tert
+5p15.33	5:1253167-1295068	TERT, TCS1, EST2, DKCA2, DKCB4, PFBMFT1, CMM9	Telomerase reverse transcriptase	187270	TERT	7015	ENSG00000164362,ENST00000310581;;;ENST00000310581	deleted in cri du chat	{Melanoma, cutaneous malignant, 9}	615134	AD	3	Tert
+5p15.33	5:1253167-1295068	TERT, TCS1, EST2, DKCA2, DKCB4, PFBMFT1, CMM9	Telomerase reverse transcriptase	187270	TERT	7015	ENSG00000164362,ENST00000310581;;;ENST00000310581	deleted in cri du chat	Dyskeratosis congenita, autosomal dominant 2	613989	AD, AR	3	Tert
+5p15.33	5:1253167-1295068	TERT, TCS1, EST2, DKCA2, DKCB4, PFBMFT1, CMM9	Telomerase reverse transcriptase	187270	TERT	7015	ENSG00000164362,ENST00000310581;;;ENST00000310581	deleted in cri du chat	Dyskeratosis congenita, autosomal recessive 4	613989	AD, AR	3	Tert
+5p15.33	5:1253167-1295068	TERT, TCS1, EST2, DKCA2, DKCB4, PFBMFT1, CMM9	Telomerase reverse transcriptase	187270	TERT	7015	ENSG00000164362,ENST00000310581;;;ENST00000310581	deleted in cri du chat	Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 1	614742	AD	3	Tert
+5p15.33	5:1392794-1445440	SLC6A3, DAT1, PKDYS1	Solute carrier family 6 (neurotransmitter transporter, dopamine), member 3	126455	SLC6A3	6531	ENSG00000142319,ENST00000270349;;;ENST00000270349		{Nicotine dependence, protection against}	188890		3	Slc6a3
+5p15.33	5:1392794-1445440	SLC6A3, DAT1, PKDYS1	Solute carrier family 6 (neurotransmitter transporter, dopamine), member 3	126455	SLC6A3	6531	ENSG00000142319,ENST00000270349;;;ENST00000270349		Parkinsonism-dystonia, infantile, 1	613135	AR	3	Slc6a3
+5p15.33	5:1801407-1816048	NDUFS6, MC1DN9	NADH-ubiquinone oxidoreductase subunit S6	603848	NDUFS6	4726	ENSG00000145494,ENST00000274137;;;ENST00000274137		Mitochondrial complex I deficiency, nuclear type 9	618232	AR	3	Ndufs6
+5p15.32	5:4400001-6300000	MCDR3	Macular dystrophy, retinal, 3	608850				duplication of cis regulatory element cCRE10 downstream of IRX1	Macular dystrophy, retinal, 3	608850	AD	4	
+5p15.31	5:6599239-6633044	NSUN2, TRM4, SAKI, MISU, MRT5	NOP2/SUN RNA methyltransferase family, member 2	610916	NSUN2	54888	ENSG00000037474,ENST00000264670;;;ENST00000264670		Intellectual developmental disorder, autosomal recessive 5	611091	AR	3	Nsun2
+5p15.31	5:7850859-7901113	MTRR	Methionine synthase reductase	602568	MTRR	4552	ENSG00000124275,ENST00000440940;;;ENST00000440940		{Neural tube defects, folate-sensitive, susceptibility to}	601634	AR	3	Mtrr
+5p15.31	5:7850859-7901113	MTRR	Methionine synthase reductase	602568	MTRR	4552	ENSG00000124275,ENST00000440940;;;ENST00000440940		Homocystinuria-megaloblastic anemia, cbl E type	236270	AR	3	Mtrr
+5p15.2-p14	5:9900001-28900000	ADIPQTL2, CAQ5	Adiponectin, serum level of, QTL 2	606770		171511		near D5S817	{Adiponectin, serum level of, QTL2}	606770		2	
+5p15.2-p14.3	5:9900001-23300000	ANIB4	Aneurysm, intracranial berry, 4	610213		724058		max lod at D5S1954	Aneurysm, intracranial berry, 4	610213		2	
+5p15.2	5:10249921-10266412	CCT5, KIAA0098, CCTE, HSNSP	chaperonin containing TCP1, subunit 5 (epsilon)	610150	CCT5	22948	ENSG00000150753,ENST00000280326;;;ENST00000280326	mutation identified in 1 HSNSP family	?Neuropathy, hereditary sensory, with spastic paraplegia	256840	AR	3	Cct5
+5p15.2	5:10353695-10440388	MARCHF6, MARCH6, TEB4, DOA10, KIAA0597, FAME3	Membrane-associated RING-CH finger protein 6	613297	MARCHF6	10299	ENSG00000145495,ENST00000274140;;;ENST00000274140		Epilepsy, familial adult myoclonic, 3	613608	AD	3	Marchf6
+5p15.2	5:13690328-14011818	DNAH5, HL1, PCD, CILD3	Dynein, axonemal, heavy chain 5	603335	DNAH5	1767	ENSG00000039139,ENST00000265104;;;ENST00000265104		Ciliary dyskinesia, primary, 3, with or without situs inversus	608644	AR	3	Dnah5
+5p15.2	5:14143342-14510204	TRIO, MRD44, MRD63	Triple functional domain	601893	TRIO	7204	ENSG00000038382,ENST00000344204;;;ENST00000344204		Intellectual developmental disorder, autosomal dominant 44, with microcephaly	617061	AD	3	Trio
+5p15.2	5:14143342-14510204	TRIO, MRD44, MRD63	Triple functional domain	601893	TRIO	7204	ENSG00000038382,ENST00000344204;;;ENST00000344204		Intellectual developmental disorder, autosomal dominant 63, with macrocephaly	618825	AD	3	Trio
+5p15.2	5:14664718-14716525	OTULIN, FAM105B, GUM, AIPDS, IMD107, AIPDSA	OTU deubiquitinase with linear linkage specificity	615712	OTULIN	90268	ENSG00000154124,ENST00000284274;;;ENST00000284274		{Immunodeficiency 107, susceptibility to invasive staphylococcus aureus infection}	619986	AD	3	Otulin
+5p15.2	5:14664718-14716525	OTULIN, FAM105B, GUM, AIPDS, IMD107, AIPDSA	OTU deubiquitinase with linear linkage specificity	615712	OTULIN	90268	ENSG00000154124,ENST00000284274;;;ENST00000284274		Autoinflammation, panniculitis, and dermatosis syndrome, autosomal dominant	621030	AD	3	Otulin
+5p15.2	5:14664718-14716525	OTULIN, FAM105B, GUM, AIPDS, IMD107, AIPDSA	OTU deubiquitinase with linear linkage specificity	615712	OTULIN	90268	ENSG00000154124,ENST00000284274;;;ENST00000284274		Autoinflammation, panniculitis, and dermatosis syndrome, autosomal recessive	617099	AR	3	Otulin
+5p15.2	5:14704800-14871778	ANKH, HANK, ANK, CMDJ, CCAL2, CPPDD	ANKH inorganic pyrophosphate transport regulator	605145	ANKH	56172	ENSG00000154122,ENST00000284268;;;ENST00000284268		Chondrocalcinosis 2	118600	AD	3	Ank
+5p15.2	5:14704800-14871778	ANKH, HANK, ANK, CMDJ, CCAL2, CPPDD	ANKH inorganic pyrophosphate transport regulator	605145	ANKH	56172	ENSG00000154122,ENST00000284268;;;ENST00000284268		Craniometaphyseal dysplasia	123000	AD	3	Ank
+5p15.1-p13.3	5:15000001-33800000	MYP19	Myopia 19, autosomal dominant	613969		100653370		highest lod at D5S419	Myopia 19	613969	AD	2	
+5p15.1	5:15000001-18400000	PVNH3	Periventricular nodular heterotopia 3	608098		100302681			Periventricular nodular heterotopia 3	608098		2	
+5p15.1	5:16473053-16616997	RETREG1, FAM134B, HSAN2B	Reticulophagy regulator 1	613114	RETREG1	54463	ENSG00000154153,ENST00000306320;;;ENST00000306320		Neuropathy, hereditary sensory and autonomic, type IIB	613115	AR	3	Retreg1
+5p13	5:28900001-42500000	ADHD4	Attention deficit-hyperactivity disorder, susceptibility to, 4	608906		450090			{Attention deficit-hyperactivity disorder, susceptibility to, 4}	608906		2	
+5p13.3-p13.2	5:28900001-38400000	BDA1B	Brachydactyly, type A1, locus B	607004		246260			Brachydactyly, type A1, B	607004	AD	2	
+5p13	5:28900001-42500000	DUP5p13, C5DUPp13	Chromosome 5p13 duplication syndrome	613174					Chromosome 5p13 duplication syndrome	613174	IC	4	
+5p13-q12	5:28900001-67400000	HYT6	Hypertension, essential, susceptibility to, 6	610262		100188808			{Hypertension, essential, susceptibility to, 6}	145500	Mu	2	
+5p13	5:28900001-42500000	KYPSC1	Kyphoscoliosis 1	610170		780921			Kyphoscoliosis 1	610170		2	
+5p13.3	5:32690872-32791720	NPR3, ANPRC, BOMOS	Natriuretic peptide receptor C	108962	NPR3	4883	ENSG00000113389,ENST00000265074;;;ENST00000265074		Boudin-Mortier syndrome	619543	AR	3	Npr3
+5p13.3	5:33440696-33468091	TARS1, TARS, TTD7	Threonyl-tRNA synthetase 1	187790	TARS1	6897	ENSG00000113407,ENST00000265112;;;ENST00000265112	linked to LARS	Trichothiodystrophy 7, nonphotosensitive	618546	AR	3	Tars1
+5p13.2	5:33800001-38400000	MS3	Multiple sclerosis, susceptibility to, 3	612595		100271695		associated with rs6897932	{Multiple sclerosis, susceptibility to, 3}	612595		2	
+5p13.2	5:33944623-33984693	SLC45A2, MATP, AIM1, SHEP5, OCA4	Solute carrier family 45, member 2	606202	SLC45A2	51151	ENSG00000164175,ENST00000296589;;;ENST00000296589		[Skin/hair/eye pigmentation 5, black/nonblack hair]	227240	AR	3	Slc45a2
+5p13.2	5:33944623-33984693	SLC45A2, MATP, AIM1, SHEP5, OCA4	Solute carrier family 45, member 2	606202	SLC45A2	51151	ENSG00000164175,ENST00000296589;;;ENST00000296589		[Skin/hair/eye pigmentation 5, dark/fair skin]	227240	AR	3	Slc45a2
+5p13.2	5:33944623-33984693	SLC45A2, MATP, AIM1, SHEP5, OCA4	Solute carrier family 45, member 2	606202	SLC45A2	51151	ENSG00000164175,ENST00000296589;;;ENST00000296589		[Skin/hair/eye pigmentation 5, dark/light eyes]	227240	AR	3	Slc45a2
+5p13.2	5:33944623-33984693	SLC45A2, MATP, AIM1, SHEP5, OCA4	Solute carrier family 45, member 2	606202	SLC45A2	51151	ENSG00000164175,ENST00000296589;;;ENST00000296589		Albinism, oculocutaneous, type IV	606574	AR	3	Slc45a2
+5p13.2	5:33986165-34008050	AMACR, CBAS4, AMACRD	Alpha-methylacyl-CoA racemase	604489	AMACR	23600	ENSG00000242110,ENST00000335606;;;ENST00000335606		Alpha-methylacyl-CoA racemase deficiency	614307	AR	3	Amacr
+5p13.2	5:33986165-34008050	AMACR, CBAS4, AMACRD	Alpha-methylacyl-CoA racemase	604489	AMACR	23600	ENSG00000242110,ENST00000335606;;;ENST00000335606		Bile acid synthesis defect, congenital, 4	214950	AR	3	Amacr
+5p13.2	5:34929559-34958964	DNAJC21, DNAJA5, BMFS3	DNAJ/HSP40 homolog, subfamily C, member 21	617048	DNAJC21	134218	ENSG00000168724,ENST00000648817;;;ENST00000648817		Bone marrow failure syndrome 3	617052	AR	3	Dnajc21
+5p13.2	5:34998102-35047949	AGXT2, AGT2, BAIBA	Alanine-glyoxylate aminotransferase 2	612471	AGXT2	64902	ENSG00000113492,ENST00000231420;;;ENST00000231420		[Beta-aminoisobutyric acid, urinary excretion of]	210100	AR	3	Agxt2
+5p13.2	5:35048756-35230487	PRLR, MFAB, HPRL	Prolactin receptor	176761	PRLR	5618	ENSG00000113494,ENST00000618457;;;ENST00000618457		Hyperprolactinemia	615555	AD, AR	3	Prlr
+5p13.2	5:35048756-35230487	PRLR, MFAB, HPRL	Prolactin receptor	176761	PRLR	5618	ENSG00000113494,ENST00000618457;;;ENST00000618457		Multiple fibroadenomas of the breast	615554	AD	3	Prlr
+5p13.2	5:35617863-35814611	SPEF2, KPL2, KIAA1770, SPGF43	Sperm flagellar protein 2	610172	SPEF2	79925	ENSG00000152582,ENST00000356031;;;ENST00000356031		Spermatogenic failure 43	618751	AR	3	Spef2
+5p13.2	5:35856891-35879603	IL7R, IL7RA, CD127, IMD104	Interleukin-7 receptor	146661	IL7R	3575	ENSG00000168685,ENST00000303115;;;ENST00000303115		Immunodeficiency 104, severe combined	608971	AR	3	Il7r
+5p13.2	5:36098407-36151887	LMBRD2, DENBA	LMBR1 domain-containing protein 2	619490	LMBRD2	92255	ENSG00000164187,ENST00000296603;;;ENST00000296603		Developmental delay with variable neurologic and brain abnormalities	619694	AD	3	Lmbrd2
+5p13.2	5:36192589-36242279	NADK2, C5orf33, DECRD	NAD kinase 2, mitochondrial	615787	NADK2	133686	ENSG00000152620,ENST00000381937;;;ENST00000381937		2,4-dienoyl-CoA reductase deficiency	616034	AR	3	Nadk2
+5p13.2	5:36596588-36688334	SLC1A3, EAAT1, EA6	Solute carrier family 1 (glial high affinity glutamate transporter), member 3	600111	SLC1A3	6507	ENSG00000079215,ENST00000265113;;;ENST00000265113		Episodic ataxia, type 6	612656	AD	3	Slc1a3
+5p13.2	5:36876769-37066413	NIPBL, CDLS1	Nipped-B-like (delangin)	608667	NIPBL	25836	ENSG00000164190,ENST00000282516;;;ENST00000282516		Cornelia de Lange syndrome 1	122470	AD	3	Nipbl
+5p13.2	5:37075669-37249376	CPLANE1, C5orf42, JBTS17, OFD6	Ciliogenesis and planar polarity effector complex, subunit 1	614571	CPLANE1	65250	ENSG00000197603,ENST00000651892;;;ENST00000651892		Joubert syndrome 17	614615	AR	3	Cplane1
+5p13.2	5:37075669-37249376	CPLANE1, C5orf42, JBTS17, OFD6	Ciliogenesis and planar polarity effector complex, subunit 1	614571	CPLANE1	65250	ENSG00000197603,ENST00000651892;;;ENST00000651892		Orofaciodigital syndrome VI	277170	AR	3	Cplane1
+5p13.2	5:37288137-37371106	NUP155, KIAA0791, ATFB15	Nucleoporin, 155kD	606694	NUP155	9631	ENSG00000113569,ENST00000231498;;;ENST00000231498	mutation identified in 1 ATFB15 family	?Atrial fibrillation 15	615770	AR	3	Nup155
+5p13.2	5:37812677-37840041	GDNF, HSCR3	Glial cell line derived neurotrophic factor	600837	GDNF	2668	ENSG00000168621,ENST00000326524;;;ENST00000326524		{Hirschsprung disease, susceptibility to, 3}	613711	AD	3	Gdnf
+5p13.1	5:38400001-42500000	IBD18	Inflammatory bowel disease 18	612262		100190931		associated with rs1373692	{Inflammatory bowel disease 18}	612262		2	
+5p13.1	5:38474668-38608403	LIFR, STWS, SWS, SJS2	Leukemia inhibitory factor receptor	151443	LIFR	3977	ENSG00000113594,ENST00000453190;;;ENST00000453190		Stuve-Wiedemann syndrome/Schwartz-Jampel type 2 syndrome	601559	AR	3	Lifr
+5p13.1	5:38846012-38945579	OSMR, OSMRB, PLCA1	Oncostatin M receptor	601743	OSMR	9180	ENSG00000145623,ENST00000274276;;;ENST00000274276		Amyloidosis, primary localized cutaneous, 1	105250	AD	3	Osmr
+5p13.1	5:39105252-39274528	FYB1, SLAP130, ADAP, THC3	FYN-binding protein 1	602731	FYB1	2533	ENSG00000082074,ENST00000512982;;;ENST00000512982		Thrombocytopenia 3	273900	AR	3	Fyb1
+5p13.1	5:39284140-39364495	C9, C9D, ARMD15	Complement component-9	120940	C9	735	ENSG00000113600,ENST00000263408;;;ENST00000263408		{Macular degeneration, age-related, 15, susceptibility to}	615591	AD	3	C9
+5p13.1	5:39284140-39364495	C9, C9D, ARMD15	Complement component-9	120940	C9	735	ENSG00000113600,ENST00000263408;;;ENST00000263408		C9 deficiency	613825		3	C9
+5p13.1	5:40909497-40984643	C7	Complement component-7	217070	C7	730	ENSG00000112936,ENST00000313164;;;ENST00000313164		C7 deficiency	610102		3	C7
+5p13.1	5:41142116-41261469	C6	Complement component-6	217050	C6	729	ENSG00000039537,ENST00000337836;;;ENST00000337836		C6 deficiency	612446	AR	3	C6
+5p13.1	5:41730065-41870425	OXCT1, OXCT, SCOT	3-oxoacid CoA transferase 1	601424	OXCT1	5019	ENSG00000083720,ENST00000196371;;;ENST00000196371		Succinyl CoA:3-oxoacid CoA transferase deficiency	245050	AR	3	Oxct1
+5p13.1-p12	5:42423439-42721878	GHR, GHIP	Growth hormone receptor	600946	GHR	2690	ENSG00000112964,ENST00000230882;;;ENST00000230882		{Hypercholesterolemia, familial, modifier of}	143890	AD, AR	3	Ghr
+5p13.1-p12	5:42423439-42721878	GHR, GHIP	Growth hormone receptor	600946	GHR	2690	ENSG00000112964,ENST00000230882;;;ENST00000230882		Growth hormone insensitivity, partial	604271	AD	3	Ghr
+5p13.1-p12	5:42423439-42721878	GHR, GHIP	Growth hormone receptor	600946	GHR	2690	ENSG00000112964,ENST00000230882;;;ENST00000230882		Increased responsiveness to growth hormone	604271	AD	3	Ghr
+5p13.1-p12	5:42423439-42721878	GHR, GHIP	Growth hormone receptor	600946	GHR	2690	ENSG00000112964,ENST00000230882;;;ENST00000230882		Laron dwarfism	262500	AR	3	Ghr
+5p12	5:43602675-43707396	NNT, GCCD4	Nicotinamide nucleotide transhydrogenase	607878	NNT	23530	ENSG00000112992,ENST00000344920;;;ENST00000344920		Glucocorticoid deficiency 4, with or without mineralocorticoid deficiency	614736	AR	3	Nnt
+5p12	5:44300247-44389420	FGF10, LADD3	Fibroblast growth factor-10	602115	FGF10	2255	ENSG00000070193,ENST00000264664;;;ENST00000264664		Aplasia of lacrimal and salivary glands	180920	AD	3	Fgf10
+5p12	5:44300247-44389420	FGF10, LADD3	Fibroblast growth factor-10	602115	FGF10	2255	ENSG00000070193,ENST00000264664;;;ENST00000264664		LADD syndrome 3	620193	AD	3	Fgf10
+5p12	5:45254948-45696380	HCN1, BCNG1, DEE24, GEFSP10	Hyperpolarization-activated cyclic nucleotide-gated potassium channel 1	602780	HCN1	348980	ENSG00000164588,ENST00000303230;;;ENST00000303230		Developmental and epileptic encephalopathy 24	615871	AD	3	Hcn1
+5p12	5:45254948-45696380	HCN1, BCNG1, DEE24, GEFSP10	Hyperpolarization-activated cyclic nucleotide-gated potassium channel 1	602780	HCN1	348980	ENSG00000164588,ENST00000303230;;;ENST00000303230		Generalized epilepsy with febrile seizures plus, type 10	618482	AD	3	Hcn1
+5q	5:48800001-181538259	BSZQTL2	Bone size quantitative trait locus 2	609657		100188794			{Bone size QTL}	609657		2	
+5q11.2	5:51400001-59600000	BDPLT9	Bleeding disorder, platelet-type, 9	614200		116814567			Bleeding disorder, platelet-type, 9	614200	AD	2	
+5q11.2	5:52989352-53094779	ITGA2, CD49B, BR, FMAIT3	Integrin, alpha-2 (glycoprotein Ia; antigen CD49B)	192974	ITGA2	3673	ENSG00000164171,ENST00000296585;;;ENST00000296585		Fetomaternal alloimmune thrombocytopenia 3	621267	AD	3	Itga2
+5q11.2	5:53095679-53109757	MOCS2, MPTS, MOCODB1	Molybdenum cofactor synthesis-2	603708	MOCS2	4338	ENSG00000164172,ENST00000396954;;;ENST00000396954		Molybdenum cofactor deficiency B1	252160	AR	3	Mocs2
+5q11.2	5:53560639-53683338	NDUFS4, AQDQ, MC1DN1	NADH-ubiquinone oxidoreductase subunit S4	602694	NDUFS4	4724	ENSG00000164258,ENST00000296684;;;ENST00000296684		Mitochondrial complex I deficiency, nuclear type 1	252010	AR	3	Ndufs4
+5q11.2	5:54455699-54456377	HSPB3, HSPL27, HMND4	Heat-shock 27kD protein 3	604624	HSPB3	8988	ENSG00000169271,ENST00000302005;;;ENST00000302005	mutation identified in 1 HMND4 family	?Neuronopathy, distal hereditary motor, autosomal dominant 4	613376	AD	3	Hspb3
+5q11.2	5:55219564-55227315	MCIDAS, IDAS, CILD42	IDAS	614086	MCIDAS	345643	ENSG00000234602,ENST00000513312;;;ENST00000513312		Ciliary dyskinesia, primary, 42	618695	AR	3	Mcidas
+5q11.2	5:55231152-55233608	CCNO, UNG2, CILD29	Cyclin O	607752	CCNO	10309	ENSG00000152669,ENST00000282572;;;ENST00000282572		Ciliary dyskinesia, primary, 29	615872	AR	3	Ccno
+5q11.2	5:55839789-55922850	IL31RA, GLMR, GPL, PLCA2	Interleukin 31 receptor A	609510	IL31RA	133396	ENSG00000164509,ENST00000652347;;;ENST00000652347	mutation identified in 1 PLCA2 patient	?Amyloidosis, primary localized cutaneous, 2	613955	AD	3	Il31ra
+5q11.2	5:55935095-55994963	IL6ST, HIES4A, HIES4B, STWS2, IMD94	Interleukin 6 cytokine family signal transducer	600694	IL6ST	3572	ENSG00000134352,ENST00000381298;;;ENST00000381298	mutation identified in one IMD94 patient	?Immunodeficiency 94 with autoinflammation and dysmorphic facies	619750	AD	3	Il6st
+5q11.2	5:55935095-55994963	IL6ST, HIES4A, HIES4B, STWS2, IMD94	Interleukin 6 cytokine family signal transducer	600694	IL6ST	3572	ENSG00000134352,ENST00000381298;;;ENST00000381298	mutation identified in one IMD94 patient	Hyper-IgE syndrome 4A, autosomal dominant, with recurrent infections	619752	AD	3	Il6st
+5q11.2	5:55935095-55994963	IL6ST, HIES4A, HIES4B, STWS2, IMD94	Interleukin 6 cytokine family signal transducer	600694	IL6ST	3572	ENSG00000134352,ENST00000381298;;;ENST00000381298	mutation identified in one IMD94 patient	Hyper-IgE syndrome 4B, autosomal recessive, with recurrent infections	618523	AR	3	Il6st
+5q11.2	5:55935095-55994963	IL6ST, HIES4A, HIES4B, STWS2, IMD94	Interleukin 6 cytokine family signal transducer	600694	IL6ST	3572	ENSG00000134352,ENST00000381298;;;ENST00000381298	mutation identified in one IMD94 patient	Stuve-Wiedemann syndrome 2	619751	AR	3	Il6st
+5q11.2	5:56815549-56896152	MAP3K1, MEKK1, MEKK, SRXY6	Mitogen-activated protein kinase kinase kinase 1	600982	MAP3K1	4214	ENSG00000095015,ENST00000399503;;;ENST00000399503		46XY sex reversal 6	613762	AD	3	Map3k1
+5q11.2-q12.1	5:58969038-60522128	PDE4D, DPDE3, ACRDYS2	Phosphodiesterase-4D, cAMP-specific (dunce, Drosophila, homolog of, phosphodiesterase-E3)	600129	PDE4D	5144	ENSG00000113448,ENST00000340635;;;ENST00000340635		Acrodysostosis 2, with or without hormone resistance	614613	AD	3	Pde4d
+5q12	5:59600001-67400000	DEL5q12, C5DELq12	Chromosome 5q12 deletion syndrome	615668					Chromosome 5q12 deletion syndrome	615668	AD	4	
+5q12-q14	5:59600001-93000000	EJM4	Myoclonic epilepsy, juvenile, 4	611364		100126594		max lod at D5S459	Myoclonic epilepsy, juvenile, 4	611364	AD	2	
+5q12	5:59600001-67400000	STRK1	Stroke, susceptibility to, 1	606799				association with PDE4D	{Stroke, susceptibility to, 1}	606799		2	
+5q12.1	5:60866454-60945070	ERCC8, CKN1, CSA, UVSS2	ERCC excision repair 8, CSA ubiquitin ligase complex subunit	609412	ERCC8	1161	ENSG00000049167,ENST00000676185;;;ENST00000676185		Cockayne syndrome, type A	216400	AR	3	Ercc8
+5q12.1	5:60866454-60945070	ERCC8, CKN1, CSA, UVSS2	ERCC excision repair 8, CSA ubiquitin ligase complex subunit	609412	ERCC8	1161	ENSG00000049167,ENST00000676185;;;ENST00000676185		UV-sensitive syndrome 2	614621	AR	3	Ercc8
+5q12.1	5:60945205-61153026	NDUFAF2, NDUFA12L, MMTN, B17.2L, MC1DN10	NADH-ubiquinone oxidoreductase complex assembly factor 2	609653	NDUFAF2	91942	ENSG00000164182,ENST00000296597;;;ENST00000296597	pseudogene on chr.2	Mitochondrial complex I deficiency, nuclear type 10	618233	AR	3	Ndufaf2
+5q12.1	5:61332258-61546172	ZSWIM6, KIAA1577, AFND, NEDMAGA	Zinc finger SWIM domain-containing protein 6	615951	ZSWIM6	57688	ENSG00000130449,ENST00000252744;;;ENST00000252744		Acromelic frontonasal dysostosis	603671	AD	3	Zswim6
+5q12.1	5:61332258-61546172	ZSWIM6, KIAA1577, AFND, NEDMAGA	Zinc finger SWIM domain-containing protein 6	615951	ZSWIM6	57688	ENSG00000130449,ENST00000252744;;;ENST00000252744		Neurodevelopmental disorder with movement abnormalities, abnormal gait, and autistic features	617865	AD	3	Zswim6
+5q12.1	5:62306206-62391025	KIF2A, CDCBM3	Kinesin, heavy chain, 2	602591	KIF2A	3796	ENSG00000068796,ENST00000407818;;;ENST00000407818		Cortical dysplasia, complex, with other brain malformations 3	615411	AD	3	Kif2a
+5q12.3	5:63957874-63962445	HTR1A, ADRB2RL1, PFMCD	5-hydroxytryptamine (serotonin) receptor-1A	109760	HTR1A	3350	ENSG00000178394,ENST00000323865;;;ENST00000323865	mutation identified in 1 PFMCD patient	?Periodic fever, menstrual cycle dependent	614674	AD	3	Htr1a
+5q12.3	5:64768918-65018763	CWC27, SDCCAG10, RPSKA	CWC27 spliceosome-associated cyclophilin	617170	CWC27	10283	ENSG00000153015,ENST00000381070;;;ENST00000381070		Retinitis pigmentosa with or without skeletal anomalies	250410	AR	3	Cwc27
+5q13-q14	5:67400001-93000000	AAT2, FAA2	Aortic aneurysm, familial thoracic 2	607087		252843			Aortic aneurysm, familial thoracic 2	607087		2	
+5q13-q22	5:67400001-115900000	GINGF2, GGF2, HGF2	Fibromatosis, gingival, 2	605544		64644		formerly GINGF2 used for a locus on 2p16-p13	Fibromatosis, gingival, 2	605544		2	
+5q13	5:67400001-77600000	TSHQTL1	Thyroid-stimulating hormone level QTL 1	612306		100190789		associated with rs4704397	[Thyroid-stimulating hormone level QTL 1]	612306		2	
+5q13.1	5:68215756-68301821	PIK3R1, GRB1, AGM7, SHORT, IMD36	Phosphatidylinositol 3-kinase, regulatory, 1	171833	PIK3R1	5295	ENSG00000145675,ENST00000521381;;;ENST00000521381		Agammaglobulinemia 7, autosomal recessive	615214	AR	3	Pik3r1
+5q13.1	5:68215756-68301821	PIK3R1, GRB1, AGM7, SHORT, IMD36	Phosphatidylinositol 3-kinase, regulatory, 1	171833	PIK3R1	5295	ENSG00000145675,ENST00000521381;;;ENST00000521381		Immunodeficiency 36	616005	AD	3	Pik3r1
+5q13.1	5:68215756-68301821	PIK3R1, GRB1, AGM7, SHORT, IMD36	Phosphatidylinositol 3-kinase, regulatory, 1	171833	PIK3R1	5295	ENSG00000145675,ENST00000521381;;;ENST00000521381		SHORT syndrome	269880	AD	3	Pik3r1
+5q13.2	5:69415116-69444330	MARVELD2, MARVD2, TRIC, DFNB49	Marvel domain-containing protein 2 (tricellulin)	610572	MARVELD2	153562	ENSG00000152939,ENST00000325631;;;ENST00000325631		Deafness, autosomal recessive 49	610153	AR	3	Marveld2
+5q13.2	5:69492547-69558104	OCLN, BLCPMG, PTORCH1	Occludin	602876	OCLN	100506658	ENSG00000197822,ENST00000396442;;;ENST00000396442		Pseudo-TORCH syndrome 1	251290	AR	3	Ocln
+5q13.2	5:70049523-70090528	SMN2	Survival of motor neuron 2, centromeric	601627	SMN2	6607	ENSG00000205571,ENST00000380743;;;ENST00000380743		{Spinal muscular atrophy, type III, modifier of}	253400	AR	3	Smn1
+5q13.2	5:70924941-70966375	SMN1, SMA1, SMA2, SMA3, SMA4	Survival of motor neuron 1, telomeric	600354	SMN1	6606	ENSG00000172062,ENST00000380707;;;ENST00000380707		Spinal muscular atrophy-1	253300	AR	3	Smn1
+5q13.2	5:70924941-70966375	SMN1, SMA1, SMA2, SMA3, SMA4	Survival of motor neuron 1, telomeric	600354	SMN1	6606	ENSG00000172062,ENST00000380707;;;ENST00000380707		Spinal muscular atrophy-2	253550	AR	3	Smn1
+5q13.2	5:70924941-70966375	SMN1, SMA1, SMA2, SMA3, SMA4	Survival of motor neuron 1, telomeric	600354	SMN1	6606	ENSG00000172062,ENST00000380707;;;ENST00000380707		Spinal muscular atrophy-3	253400	AR	3	Smn1
+5q13.2	5:70924941-70966375	SMN1, SMA1, SMA2, SMA3, SMA4	Survival of motor neuron 1, telomeric	600354	SMN1	6606	ENSG00000172062,ENST00000380707;;;ENST00000380707		Spinal muscular atrophy-4	271150	AR	3	Smn1
+5q13.2	5:71455651-71578288	BDP1, TFNR, DFNB112	B double prime 1, subunit of RNA polymerase III transcription initiation factor IIIB	607012	BDP1	55814	ENSG00000145734,ENST00000358731;;;ENST00000358731	mutation identified in 1 DFNB112 family	?Deafness, autosomal recessive 112	618257	AR	3	Bdp1
+5q13.2	5:71587340-71658706	MCCC2, MCCB	3-Methylcrotonyl-CoA carboxylase 2	609014	MCCC2	64087	ENSG00000131844,ENST00000340941;;;ENST00000340941		3-Methylcrotonyl-CoA carboxylase 2 deficiency	210210	AR	3	Mccc2
+5q13.2	5:71719275-71721045	CARTPT, CART	Cocaine- and amphetamine-regulated transcript prepropeptide	602606	CARTPT	9607	ENSG00000164326,ENST00000296777;;;ENST00000296777	mutation identified in 1 family	{?Obesity, susceptibility to}	601665	AD, AR, Mu	3	Cartpt
+5q13.2	5:72107475-72209565	MAP1B, PVNH9, DFNA83	Microtubule-associated protein-1B	157129	MAP1B	4131	ENSG00000131711,ENST00000296755;;;ENST00000296755	mutation identified in 1 DFNA83 family	?Deafness, autosomal dominant 83	619808	AD	3	Map1b
+5q13.2	5:72107475-72209565	MAP1B, PVNH9, DFNA83	Microtubule-associated protein-1B	157129	MAP1B	4131	ENSG00000131711,ENST00000296755;;;ENST00000296755	mutation identified in 1 DFNA83 family	Periventricular nodular heterotopia 9	618918	AD	3	Map1b
+5q13.3	5:74640023-74721288	HEXB	Hexosaminidase B, beta polypeptide	606873	HEXB	3074	ENSG00000049860,ENST00000261416;;;ENST00000261416		Sandhoff disease, infantile, juvenile, and adult forms	268800	AR	3	Hexb
+5q13.3	5:74721206-74767117	GFM2, EFG2, RRF	Mitochondrial elongation factor G2	606544	GFM2	84340	ENSG00000164347,ENST00000296805;;;ENST00000296805		Combined oxidative phosphorylation deficiency 39	618397	AR	3	Gfm2
+5q13.3	5:75336529-75362116	HMGCR, LDLCQ3, LGMDR28	3-hydroxy-3-methylglutaryl-Coenzyme A reductase; HMG CoA reductase	142910	HMGCR	3156	ENSG00000113161,ENST00000287936;;;ENST00000287936	mutation identified in 1 MYPLG family	[Low density lipoprotein cholesterol level QTL 3]	620410		3	Hmgcr
+5q13.3	5:75336529-75362116	HMGCR, LDLCQ3, LGMDR28	3-hydroxy-3-methylglutaryl-Coenzyme A reductase; HMG CoA reductase	142910	HMGCR	3156	ENSG00000113161,ENST00000287936;;;ENST00000287936	mutation identified in 1 MYPLG family	[Statins, response to]	620410		3	Hmgcr
+5q13.3	5:75336529-75362116	HMGCR, LDLCQ3, LGMDR28	3-hydroxy-3-methylglutaryl-Coenzyme A reductase; HMG CoA reductase	142910	HMGCR	3156	ENSG00000113161,ENST00000287936;;;ENST00000287936	mutation identified in 1 MYPLG family	Muscular dystrophy, limb-girdle, autosomal recessive 28	620375	AR	3	Hmgcr
+5q13.3	5:75368486-75511981	CERT1, COL4A3BP, GPBP, CERT, NEDHSF	Ceramide transporter 1	604677	CERT1	10087	ENSG00000113163,ENST00000643780;;;ENST00000643780		Neurodevelopmental disorder with hypotonia, speech delay, and dysmorphic facies	616351	AD	3	Cert1
+5q13.3	5:77086715-77428256	PDE8B, PPNAD3, ADSD	Phosphodiesterase 8B	603390	PDE8B	8622	ENSG00000113231,ENST00000264917;;;ENST00000264917		Pigmented nodular adrenocortical disease, primary, 3	614190		3	Pde8b
+5q13.3	5:77086715-77428256	PDE8B, PPNAD3, ADSD	Phosphodiesterase 8B	603390	PDE8B	8622	ENSG00000113231,ENST00000264917;;;ENST00000264917		Striatal degeneration, autosomal dominant	609161	AD	3	Pde8b
+5q14	5:77600001-93000000	HBT	Telangiectasia, hereditary benign	187260		338411		max lod at D5S641	Telangiectasia, hereditary benign	187260	AD	2	
+5q14.1-q21.3	5:77600001-110200000	KTCN5	Keratoconus 5	614622		100885801		between D5S2499 and D5S495	Keratoconus 5	614622	AD	2	
+5q14.1	5:78000522-78294698	AP3B1, ADTB3A, HPS2	Adaptor-related protein complex 3, beta 1 subunit (adaptin, beta-3a)	603401	AP3B1	8546	ENSG00000132842,ENST00000255194;;;ENST00000255194		Hermansky-Pudlak syndrome 2	608233	AR	3	Ap3b1
+5q14.1	5:78777209-78985958	ARSB, MPS6	Arylsulfatase B	611542	ARSB	411	ENSG00000113273,ENST00000264914;;;ENST00000264914		Mucopolysaccharidosis type VI (Maroteaux-Lamy)	253200	AR	3	Arsb
+5q14.1	5:78997564-79069674	DMGDH, DMGDHD	Dimethylglycine dehydrogenase	605849	DMGDH	29958	ENSG00000132837,ENST00000255189;;;ENST00000255189		Dimethylglycine dehydrogenase deficiency	605850	AR	3	Dmgdh
+5q14.1	5:80626226-80654983	DHFR	Dihydrofolate reductase	126060	DHFR	1719	ENSG00000228716,ENST00000439211;;;ENST00000439211		Megaloblastic anemia due to dihydrofolate reductase deficiency	613839	AR	3	Dhfr
+5q14.1	5:80654652-80876815	MSH3, FAP4	mutS homolog 3	600887	MSH3	4437	ENSG00000113318,ENST00000265081;;;ENST00000265081	5' to DHFR	Endometrial carcinoma, somatic	608089		3	Msh3
+5q14.1	5:80654652-80876815	MSH3, FAP4	mutS homolog 3	600887	MSH3	4437	ENSG00000113318,ENST00000265081;;;ENST00000265081	5' to DHFR	Familial adenomatous polyposis 4	617100	AR	3	Msh3
+5q14.2	5:82100001-83500000	VUR4	Vesicoureteral reflux 4	614317		100820757		closest marker rs1501656	Vesicoureteral reflux 4	614317		2	
+5q14.2	5:82273320-82278354	RPS23, BTDD, MCINS	Ribosomal protein S23	603683	RPS23	6228	ENSG00000186468,ENST00000296674;;;ENST00000296674		Brachycephaly, trichomegaly, and developmental delay	617412	AD	3	Rps23
+5q14.2	5:83077547-83374473	XRCC4, SSMED	X-ray repair cross complementing 4	194363	XRCC4	7518	ENSG00000152422,ENST00000396027;;;ENST00000396027	between D5S427 and D5S401	Short stature, microcephaly, and endocrine dysfunction	616541	AR	3	Xrcc4
+5q14.2-q14.3	5:83471744-83582302	VCAN, CSPG2, WGN, WGN1, ERVR	Versican (chondroitin sulfate proteoglycan-2)	118661	VCAN	1462	ENSG00000038427,ENST00000265077;;;ENST00000265077		Wagner syndrome 1	143200	AD	3	Vcan
+5q14.3-q15	5:83500001-98900000	PVNH5	Periventricular nodular heterotopia 5	612881				deletion range 6.3-17Mb, common range 5.8Mb	Periventricular nodular heterotopia 5	612881		4	
+5q14.3	5:87267883-87391916	RASA1, GAP, CMAVM1, PKWS	RAS p21 protein activator 1 (GTPase activating protein)	139150	RASA1	5921	ENSG00000145715,ENST00000274376;;;ENST00000274376		Basal cell carcinoma, somatic	605462		3	Rasa1
+5q14.3	5:87267883-87391916	RASA1, GAP, CMAVM1, PKWS	RAS p21 protein activator 1 (GTPase activating protein)	139150	RASA1	5921	ENSG00000145715,ENST00000274376;;;ENST00000274376		Capillary malformation-arteriovenous malformation 1	608354	AD	3	Rasa1
+5q14.3	5:88717117-88904105	MEF2C, C5DELq14.3, DEL5q14.3, NEDHSIL	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	600662	MEF2C	4208	ENSG00000081189,ENST00000504921;;;ENST00000504921		Chromosome 5q14.3 deletion syndrome	613443	AD	4	Mef2c
+5q14.3	5:88717117-88904105	MEF2C, C5DELq14.3, DEL5q14.3, NEDHSIL	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	600662	MEF2C	4208	ENSG00000081189,ENST00000504921;;;ENST00000504921		Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language	613443	AD	3	Mef2c
+5q14.3	5:90558797-91164437	ADGRV1, GPR98, MASS1, VLGR1, KIAA0686, FEB4, USH2C	Adhesion G protein-coupled receptor V1	602851	ADGRV1	84059	ENSG00000164199,ENST00000405460;;;ENST00000405460	mutation identified in 1 FEB4 family	?Febrile seizures, familial, 4	604352	AD	3	Adgrv1
+5q14.3	5:90558797-91164437	ADGRV1, GPR98, MASS1, VLGR1, KIAA0686, FEB4, USH2C	Adhesion G protein-coupled receptor V1	602851	ADGRV1	84059	ENSG00000164199,ENST00000405460;;;ENST00000405460	mutation identified in 1 FEB4 family	Usher syndrome, type 2C	605472	AR, DD	3	Adgrv1
+5q14.3	5:90558797-91164437	ADGRV1, GPR98, MASS1, VLGR1, KIAA0686, FEB4, USH2C	Adhesion G protein-coupled receptor V1	602851	ADGRV1	84059	ENSG00000164199,ENST00000405460;;;ENST00000405460	mutation identified in 1 FEB4 family	Usher syndrome, type 2C, GPR98/PDZD7 digenic	605472	AR, DD	3	Adgrv1
+5q15	5:93583222-93594611	NR2F1, TFCOUP1, ERBAL3, EAR3, BBSOAS	Nuclear receptor subfamily 2, group F, member 1 (transcription factor COUP 1)	132890	NR2F1	7025	ENSG00000175745,ENST00000327111;;;ENST00000327111		Bosch-Boonstra-Schaaf optic atrophy syndrome	615722	AD	3	Nr2f1
+5q15	5:94150851-94618604	KIAA0825, PAPA10	KIAA0825 gene	617266	KIAA0825	285600	ENSG00000185261,ENST00000682413;;;ENST00000682413		Polydactyly, postaxial, type A10	618498	AR	3	2210408I21Rik
+5q15	5:95463894-95554977	SKIC3, TTC37, KIAA0372	SKI3 subunit of superkiller complex	614589	SKIC3	9652	ENSG00000198677,ENST00000358746;;;ENST00000358746		Trichohepatoenteric syndrome 1	222470	AR	3	Skic3
+5q15	5:95555101-95605102	ARSK, MPS10	Arylsulfatase K	610011	ARSK	153642	ENSG00000164291,ENST00000380009;;;ENST00000380009		Mucopolysaccharidosis, type X	619698	AR	3	Arsk
+5q15	5:95961429-96774683	CAST, PLACK	Calpastatin	114090	CAST	831	ENSG00000310517,ENST00000675179;;;ENST00000675179		Peeling skin with leukonychia, acral punctate keratoses, cheilitis, and knuckle pads	616295	AR	3	Cast
+5q15	5:96390333-96433248	PCSK1, NEC1, PC1, PC3, BMIQ12	Proprotein convertase subtilisin/kexin type 1	162150	PCSK1	5122	ENSG00000175426,ENST00000311106;;;ENST00000311106		{Obesity, susceptibility to, BMIQ12}	612362		3	Pcsk1
+5q15	5:96390333-96433248	PCSK1, NEC1, PC1, PC3, BMIQ12	Proprotein convertase subtilisin/kexin type 1	162150	PCSK1	5122	ENSG00000175426,ENST00000311106;;;ENST00000311106		Endocrinopathy due to proprotein convertase 1/3 deficiency	600955	AR	3	Pcsk1
+5q15-q21.1	5:98853985-98929007	CHD1, PILBOS	Chromodomain helicase DNA binding protein-1	602118	CHD1	1105	ENSG00000153922,ENST00000614616;;;ENST00000614616		Pilarowski-Bjornsson syndrome	617682	AD	3	Chd1
+5q21	5:98900001-110200000	MGR8	Migraine, susceptibility to, 8	609570		100188790			{Migraine, susceptibility to, 8}	609570		2	
+5q21.1	5:103120301-103212799	PPIP5K2, HISPPD1, VIP2, KIAA0433, DFNB100	Histidine acid phosphatase domain-containing protein 1	611648	PPIP5K2	23262	ENSG00000145725,ENST00000358359;;;ENST00000358359		Deafness, autosomal recessive 100	618422	AR	3	Ppip5k2
+5q22	5:110200001-115900000	EOE2	Esophagitis, eosinophilic, 2	613412		100499167		association with rs3806932	{Esophagitis, eosinophilic, 2}	613412	Mu	2	
+5q22.1-q32	5:110200001-150400000	GLC1M	Glaucoma 1, open angle, M	610535		777643		between D5S2051 and D5S2090	Glaucoma 1, open angle, M	610535	AD	2	
+5q22.1	5:110738145-110765157	SLC25A46, HMSN6B, PCH1E	Solute carrier family 25, member 46	610826	SLC25A46	91137	ENSG00000164209,ENST00000355943;;;ENST00000355943		Neuropathy, hereditary motor and sensory, type VIB	616505	AR	3	Slc25a46
+5q22.1	5:110738145-110765157	SLC25A46, HMSN6B, PCH1E	Solute carrier family 25, member 46	610826	SLC25A46	91137	ENSG00000164209,ENST00000355943;;;ENST00000355943		Pontocerebellar hypoplasia, type 1E	619303	AR	3	Slc25a46
+5q22.1	5:111092348-111130502	WDR36, TAWDRP, GLC1G	WD repeat-containing protein 36	609669	WDR36	134430	ENSG00000134987,ENST00000513710;;;ENST00000513710		Glaucoma 1, open angle, G	609887		3	Wdr36
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Adenoma, periampullary, somatic	175100		3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Adenomatous polyposis coli	175100	AD	3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Brain tumor-polyposis syndrome 2	175100	AD	3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Colorectal cancer, somatic	114500		3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Desmoid disease, hereditary	135290	AD	3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Gardner syndrome	175100	AD	3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Gastric adenocarcinoma and proximal polyposis of the stomach	619182	AD	3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Gastric cancer, somatic	613659		3	Apc
+5q22.2	5:112707498-112846239	APC, GS, FPC, BTPS2, DESMD	APC regulator of WNT signaling pathway	611731	APC	324	ENSG00000134982,ENST00000257430;;;ENST00000257430	150kb distal to MCC	Hepatoblastoma, somatic	114550		3	Apc
+5q22.2	5:113022106-113488453	MCC	MCC regulator of WNT signaling pathway	159350	MCC	4163	ENSG00000171444,ENST00000408903;;;ENST00000408903		Colorectal cancer, somatic	114500		3	Mcc
+5q22.3	5:114055978-114496496	KCNN2, SK2, DYT34, NEDMAB	Potassium channel, calcium-activated, intermediate/small conductance, subfamily N, member 2	605879	KCNN2	3781	ENSG00000080709,ENST00000673685;;;ENST00000673685		?Dystonia 34, myoclonic	619724	AD	3	Kcnn2
+5q22.3	5:114055978-114496496	KCNN2, SK2, DYT34, NEDMAB	Potassium channel, calcium-activated, intermediate/small conductance, subfamily N, member 2	605879	KCNN2	3781	ENSG00000080709,ENST00000673685;;;ENST00000673685		Neurodevelopmental disorder with or without variable movement or behavioral abnormalities	619725	AD	3	Kcnn2
+5q22.3	5:115124772-115180294	TRIM36, RBCC728, ANPH1	Tripartite motif-containing protein 36	609317	TRIM36	55521	ENSG00000152503,ENST00000513154;;;ENST00000513154	mutation identified in 1 ANPH1 patient	?Anencephaly 1	206500	AR	3	Trim36
+5q23-q35	5:115900001-181538259	SCZD1	Schizophrenia susceptibility locus, chromosome 5-related	181510		6377		max lod at D5S820	{Schizophrenia}	181500	AD	2	
+5q23.1	5:119452497-119542332	HSD17B4, PRLTS1	Hydroxysteroid (17-beta) dehydrogenase 4	601860	HSD17B4	3295	ENSG00000133835,ENST00000510025;;;ENST00000510025		D-bifunctional protein deficiency	261515	AR	3	Hsd17b4
+5q23.1	5:119452497-119542332	HSD17B4, PRLTS1	Hydroxysteroid (17-beta) dehydrogenase 4	601860	HSD17B4	3295	ENSG00000133835,ENST00000510025;;;ENST00000510025		Perrault syndrome 1	233400	AR	3	Hsd17b4
+5q23.1	5:122063195-122078259	LOX, AAT10	Lysyl oxidase	153455	LOX	4015	ENSG00000113083,ENST00000231004;;;ENST00000231004		Aortic aneurysm, familial thoracic 10	617168	AD	3	Lox
+5q23.2	5:122100001-127900000	ADLDAT	Leukodystrophy, demyelinating, adult-onset, autosomal dominant, atypical	621061				deletion upstream of LMNB1	Leukodystrophy, demyelinating, adult-onset, autosomal dominant, atypical	621061	AD	4	
+5q23.2	5:122100001-127900000	ADLDTY	Leukodystrophy, demyelinating, adult-onset, autosomal dominant, typical	169500				tandem duplication resulting in extra copy of LMNB1	Leukodystrophy, demyelinating, adult-onset, autosomal dominant, typical	169500	AD	4	
+5q23.2	5:123089241-123194266	PRDM6, PRISM, PDA3	PR domain-containing protein 6	616982	PRDM6	93166	ENSG00000061455,ENST00000407847;;;ENST00000407847		Patent ductus arteriosus 3	617039	AD	3	Prdm6
+5q23.2	5:123344892-123423842	CEP120, CCDC100, SRTD13, JBTS31	Centrosomal protein, 120kD	613446	CEP120	153241	ENSG00000168944,ENST00000306467;;;ENST00000306467		Joubert syndrome 31	617761	AR	3	Cep120
+5q23.2	5:123344892-123423842	CEP120, CCDC100, SRTD13, JBTS31	Centrosomal protein, 120kD	613446	CEP120	153241	ENSG00000168944,ENST00000306467;;;ENST00000306467		Short-rib thoracic dysplasia 13 with or without polydactyly	616300	AR	3	Cep120
+5q23.2	5:126541841-126595219	ALDH7A1, ATQ1, EPD, PDE, EPEO4	Aldehyde dehydrogenase 7 family, member A1 (antiquitin 1)	107323	ALDH7A1	501	ENSG00000164904,ENST00000409134;;;ENST00000409134		Epilepsy, early-onset, 4, vitamin B6-dependent	266100	AR	3	Aldh7a1
+5q23.2	5:126776623-126837020	LMNB1, ADLD, MCPH26, ADLDAT	Lamin B1	150340	LMNB1	4001	ENSG00000113368,ENST00000261366;;;ENST00000261366		Microcephaly 26, primary, autosomal dominant	619179	AD	3	Lmnb1
+5q23.2	5:127229300-127461222	MEGF10, KIAA1780, CMYO10A, CMYO10B	Multiple epidermal growth factor-like domains 10	612453	MEGF10	84466	ENSG00000145794,ENST00000503335;;;ENST00000503335		Congenital myopathy 10A, severe variant	614399	AR	3	Megf10
+5q23.2	5:127229300-127461222	MEGF10, KIAA1780, CMYO10A, CMYO10B	Multiple epidermal growth factor-like domains 10	612453	MEGF10	84466	ENSG00000145794,ENST00000503335;;;ENST00000503335		Congenital myopathy 10B, mild variant	620249	AR	3	Megf10
+5q23.3	5:128083766-128189677	SLC12A2, NKCC1, KILQS	Solute carrier family 12 (sodium/potassium/chloride transporters), member 2	600840	SLC12A2	6558	ENSG00000064651,ENST00000262461;;;ENST00000262461		Deafness, autosomal dominant 78	619081	AD	3	Slc12a2
+5q23.3	5:128083766-128189677	SLC12A2, NKCC1, KILQS	Solute carrier family 12 (sodium/potassium/chloride transporters), member 2	600840	SLC12A2	6558	ENSG00000064651,ENST00000262461;;;ENST00000262461		Delpire-McNeill syndrome	619083	AD	3	Slc12a2
+5q23.3	5:128083766-128189677	SLC12A2, NKCC1, KILQS	Solute carrier family 12 (sodium/potassium/chloride transporters), member 2	600840	SLC12A2	6558	ENSG00000064651,ENST00000262461;;;ENST00000262461		Kilquist syndrome	619080	AR	3	Slc12a2
+5q23.3	5:128257909-128538245	FBN2, CCA, EOMD	Fibrillin-2	612570	FBN2	2201	ENSG00000138829,ENST00000262464;;;ENST00000262464		Contractural arachnodactyly, congenital	121050	AD	3	Fbn2
+5q23.3	5:128257909-128538245	FBN2, CCA, EOMD	Fibrillin-2	612570	FBN2	2201	ENSG00000138829,ENST00000262464;;;ENST00000262464		Macular degeneration, early-onset	616118	AD	3	Fbn2
+5q23.3	5:129460298-129738683	ADAMTS19, CVDP2	ADAM metallopeptidase domain with thrombospondin type 1 motif, 19	607513	ADAMTS19	171019	ENSG00000145808,ENST00000274487;;;ENST00000274487		Cardiac valvular dysplasia 2	620067	AR	3	Adamts19
+5q23.3	5:129748094-129766732	MINAR2, KIAA1024L, DFNB120	Membrane integral NOTCH2-associated receptor 2	620215	MINAR2	100127206	ENSG00000186367,ENST00000564719;;;ENST00000564719		Deafness, autosomal recessive 120	620238	AR	3	Minar2
+5q23.3	5:131159027-131165256	HINT1, PRKCNH1, NMAN	Histidine triad nucleotide-binding protein 1 (protein kinase C inhibitor 1)	601314	HINT1	3094	ENSG00000169567,ENST00000304043;;;ENST00000304043		Neuromyotonia and axonal neuropathy, autosomal recessive	137200	AR	3	Hint1
+5q23.3-q31.1	5:131170944-131205428	LYRM7, MZM1L, MC3DN8	LYR motif-containing protein 7	615831	LYRM7	90624	ENSG00000186687,ENST00000379380;;;ENST00000379380		Mitochondrial complex III deficiency, nuclear type 8	615838	AR	3	Lyrm7
+5q31-q33	5:131200001-160500000	AITD2	Autoimmune thyroid disease, susceptibility to, 2	608174		387579			{Autoimmune thyroid disease, susceptibility to, 2}	608174		2	
+5q31-q33	5:131200001-160500000	ATOD6	Dermatitis, atopic, 6	605845		114477		between D5S436 and D5S643	{Dermatitis, atopic, susceptibility to, 6}	605845		2	
+5q31-q33	5:131200001-160500000	CELIAC2	Celiac disease, susceptibility to, 2	609754		317782			{Celiac disease, susceptibility to, 2}	609754		2	
+5q31	5:131200001-145100000	DFNA54	Deafness, autosomal dominant 54	615649		448962		between D5S1972 and D5S410	Deafness, autosomal dominant 54	615649	AD	2	
+5q31-q33	5:131200001-160500000	EOS	Eosinophilia, familial	131400		7908			Eosinophilia, familial	131400	AD	2	
+5q31	5:131200001-145100000	IBD5	Inflammatory bowel disease 5	606348		50941			{Inflammatory bowel disease 5}	606348		2	
+5q31.1-q33.1	5:131200001-153300000	IDDM18	Insulin-dependent diabetes mellitus-18	605598		57044		close to IL12B	{Diabetes mellitus, insulin-dependent, 18}	605598		2	
+5q31.1	5:131200001-136900000	IGES	Immunoglobulin E concentration, serum	147061		3478			{?Allergy and asthma susceptibility}	147061		2	
+5q31.1	5:131200001-136900000	LBNBG	Liebenberg syndrome	186550					Liebenberg syndrome	186550	AD	4	
+
+
+
+Phenotype Mapping Key
+1 - The disorder is placed on the map due to its association with a gene, but the underlying defect is not known.
+2 - The disorder was placed on the map by statistical methods.
+3 - The molecular basis of the disorder is known.
+4 - A contiguous gene duplication or deletion syndrome in which multiple genes are involved.
+
+
+Inheritance Abbreviations
+?AD	?Autosomal dominant
+?XLR	?X-linked recessive
+AD	Autosomal dominant
+AR	Autosomal recessive
+PD	Pseudoautosomal dominant
+PR	Pseudoautosomal recessive
+DD	Digenic dominant
+DR	Digenic recessive
+ICB	Inherited chromosomal imbalance
+IC	Isolated cases
+Mi	Mitochondrial
+Mu	Multifactorial
+SMo	Somatic mosaicism
+SMu	Somatic mutation
+XL	X-linked
+XLD	X-linked dominant
+XLR	X-linked recessive
+YL	Y-linked
+
+
+
+This search returned 6,244 entries which exceeded the maximum of 200 so the results were truncated
+You can register for MIMmatch ( https://omim.org/mimmatch/ ) to raise this limit to 1,000
+You can register for downloads ( https://omim.org/downloads/ ) and/or the API ( https://omim.org/api ) for more search/download options
+
+
+
+
+

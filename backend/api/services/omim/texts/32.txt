@@ -1,0 +1,122 @@
+Gene Map Search - '(Search in: Entries with: Phenotype, Chromosomes: Autosomal, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, X, Y)'
+Downloaded:	November 7th, 2025
+Copyright (c) 1966-2025 Johns Hopkins University OMIM, data are provided for research purposes only.
+
+Cytogenetic location	Genomic coordinates (From NCBI/GRCh38)	Gene/Locus	Gene/Locus name	Gene/Locus MIM number	Approved Symbol	Entrez Gene ID	Ensembl Gene ID	Comments	Phenotype	Phenotype MIM number	Inheritance	Pheno map key	Mouse Gene (from MGI)
+Xq28	X:153587925-153599139	CCNQ, FAM58A, STAR	Cyclin Q	300708	CCNQ	92002	ENSG00000262919,ENST00000576892;;;ENST00000576892		STAR syndrome	300707	XLD	3	Ccnq
+Xq28	X:153687926-153696593	SLC6A8, CRTR, CCDS1	Solute carrier family 6 (neurotransmitter transporter, creatine), member 8	300036	SLC6A8	6535	ENSG00000130821,ENST00000253122;;;ENST00000253122	distal to G6PD	Cerebral creatine deficiency syndrome 1	300352	XLR	3	Slc6a8
+Xq28	X:153700492-153724387	BCAP31, BAP31, DXS1357E, DDCH	B-cell receptor-associated protein 31	300398	BCAP31	10134	ENSG00000185825,ENST00000345046;;;ENST00000345046		Deafness, dystonia, and cerebral hypomyelination	300475	XLR	3	Bcap31
+Xq28	X:153724856-153744755	ABCD1, ALD, AMN	ATP-binding cassette, subfamily D, member 1	300371	ABCD1	215	ENSG00000101986,ENST00000218104;;;ENST00000218104	about 650kb from GCP/RCP	Adrenoleukodystrophy	300100	XLR	3	Abcd1
+Xq28	X:153724856-153744755	ABCD1, ALD, AMN	ATP-binding cassette, subfamily D, member 1	300371	ABCD1	215	ENSG00000101986,ENST00000218104;;;ENST00000218104	about 650kb from GCP/RCP	Adrenomyeloneuropathy, adult	300100	XLR	3	Abcd1
+Xq28	X:153781041-153785730	SRPK3, STK23, MSSK1, XLID114	SRSF protein kinase 3	301002	SRPK3	26576	ENSG00000184343,ENST00000370101;;;ENST00000370101		Intellectual developmental disorder, X-linked 114	301134	XL	3	Srpk3
+Xq28	X:153785768-153794375	IDH3G, RP99	Isocitrate dehydrogenase (NAD+) 3, noncatalytic, gamma subunit	300089	IDH3G	3421	ENSG00000067829,ENST00000217901;;;ENST00000217901		Retinitis pigmentosa 99	301148	XLR	3	Idh3g
+Xq28	X:153794159-153798499	SSR4, TRAPD, CDG1Y	Signal sequence receptor, delta	300090	SSR4	6748	ENSG00000180879,ENST00000370086;;;ENST00000370086		Congenital disorder of glycosylation, type Iy	300934	XLR	3	Ssr4
+Xq28	X:153861514-153886173	L1CAM, CAML1, HYCX, MASA, SPG1	L1 cell adhesion molecule	308840	L1CAM	3897	ENSG00000198910,ENST00000370060;;;ENST00000370060	mutation identified in 1 PACCX family	?Corpus callosum, partial agenesis of	304100	XLR	3	L1cam
+Xq28	X:153861514-153886173	L1CAM, CAML1, HYCX, MASA, SPG1	L1 cell adhesion molecule	308840	L1CAM	3897	ENSG00000198910,ENST00000370060;;;ENST00000370060	mutation identified in 1 PACCX family	Hydrocephalus, congenital, X-linked	307000	XLR	3	L1cam
+Xq28	X:153861514-153886173	L1CAM, CAML1, HYCX, MASA, SPG1	L1 cell adhesion molecule	308840	L1CAM	3897	ENSG00000198910,ENST00000370060;;;ENST00000370060	mutation identified in 1 PACCX family	MASA syndrome	303350	XLR	3	L1cam
+Xq28	X:153902625-153907166	AVPR2, DIR, DI1, ADHR, NDI1	Arginine vasopressin receptor-2	300538	AVPR2	554	ENSG00000126895,ENST00000646375;;;ENST00000646375		Diabetes insipidus, nephrogenic, 1	304800	XLR	3	Avpr2
+Xq28	X:153902625-153907166	AVPR2, DIR, DI1, ADHR, NDI1	Arginine vasopressin receptor-2	300538	AVPR2	554	ENSG00000126895,ENST00000646375;;;ENST00000646375		Nephrogenic syndrome of inappropriate antidiuresis	300539	XLR	3	Avpr2
+Xq28	X:153929225-153935037	NAA10, ARD1A, ARD1, TE2, NATD, OGDNS, MCOPS1	N-alpha-acetyltransferase 10, NatA catalytic subunit	300013	NAA10	8260	ENSG00000102030,ENST00000464845;;;ENST00000464845		Microphthalmia, syndromic 1	309800	XL	3	Naa10
+Xq28	X:153929225-153935037	NAA10, ARD1A, ARD1, TE2, NATD, OGDNS, MCOPS1	N-alpha-acetyltransferase 10, NatA catalytic subunit	300013	NAA10	8260	ENSG00000102030,ENST00000464845;;;ENST00000464845		Ogden syndrome	300855	XLD, XLR	3	Naa10
+Xq28	X:153947557-153971818	HCFC1, HCF1, MAHCX, XLID3	Host cell factor C1 (VP16-accessory protein)	300019	HCFC1	3054	ENSG00000172534,ENST00000310441;;;ENST00000310441	50kb distal to V2R	Methylmalonic aciduria and homocysteinemia, cblX type	309541	XLR	3	Hcfc1
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	{Autism susceptibility, X-linked 3}	300496	XL	3	Mecp2
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	Encephalopathy, neonatal severe	300673	XLR	3	Mecp2
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	Intellectual developmental disorder, X-linked syndromic 13	300055	XLR	3	Mecp2
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	Intellectual developmental disorder, X-linked syndromic, Lubs type	300260	XLR	3	Mecp2
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	Rett syndrome	312750	XLD	3	Mecp2
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	Rett syndrome, atypical	312750	XLD	3	Mecp2
+Xq28	X:154021573-154097717	MECP2, RTT, PPMX, AUTSX3, MRXSL, MRXS13	Methyl-CpG-binding protein-2	300005	MECP2	4204	ENSG00000169057,ENST00000453960;;;ENST00000453960	70kb centromeric of RCP/GCP	Rett syndrome, preserved speech variant	312750	XLD	3	Mecp2
+Xq28	X:154144243-154159032	OPN1LW, RCP, CBP, CBBM	Red cone pigment (opsin 1, long-wave-sensitive)	300822	OPN1LW	5956	ENSG00000102076,ENST00000369951;;;ENST00000369951	5' to CBD	Blue cone monochromacy	303700	XLR	3	Opn1mw
+Xq28	X:154144243-154159032	OPN1LW, RCP, CBP, CBBM	Red cone pigment (opsin 1, long-wave-sensitive)	300822	OPN1LW	5956	ENSG00000102076,ENST00000369951;;;ENST00000369951	5' to CBD	Colorblindness, protan	303900	XL	3	Opn1mw
+Xq28	X:154182596-154196861	OPN1MW, GCP, CBD, CBBM	Green cone pigment (opsin 1, medium-wave-sensitive)	300821	OPN1MW	2652	ENSG00000268221,ENST00000595290;;;ENST00000595290	linked to G6PD; multiple genes	Blue cone monochromacy	303700	XLR	3	Opn1mw
+Xq28	X:154182596-154196861	OPN1MW, GCP, CBD, CBBM	Green cone pigment (opsin 1, medium-wave-sensitive)	300821	OPN1MW	2652	ENSG00000268221,ENST00000595290;;;ENST00000595290	linked to G6PD; multiple genes	Colorblindness, deutan	303800	XL	3	Opn1mw
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	?FG syndrome 2	300321	XL	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Cardiac valvular dysplasia, X-linked	314400	XL	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Congenital short bowel syndrome	300048	XLR	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Frontometaphyseal dysplasia 1	305620	XLR	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Heterotopia, periventricular, 1	300049	XLD	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Intestinal pseudoobstruction, neuronal	300048	XLR	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Melnick-Needles syndrome	309350	XLD	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Otopalatodigital syndrome, type I	311300	XLD	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Otopalatodigital syndrome, type II	304120	XLD	3	Flna
+Xq28	X:154348531-154374634	FLNA, FLN1, NHBP, OPD1, OPD2, FMD, MNS, CVD1, CSBS, FGS2	Filamin A, alpha (actin-binding protein-280)	300017	FLNA	2316	ENSG00000196924,ENST00000369850;;;ENST00000369850	mutation identified in 1 FGS2 patient	Terminal osseous dysplasia	300244	XLD	3	Flna
+Xq28	X:154379295-154381523	EMD, EDMD, STA	Emerin	300384	EMD	2010	ENSG00000102119,ENST00000369842;;;ENST00000369842	in distal Xq28	Emery-Dreifuss muscular dystrophy 1, X-linked	310300	XLR	3	Emd
+Xq28	X:154398065-154402339	RPL10, DXS648, QM, AUTSX5, MRXS35	Ribosomal protein L10	312173	RPL10	6134	ENSG00000147403,ENST00000369817;;;ENST00000369817		{Autism, susceptibility to, X-linked 5}	300847		3	Rpl10
+Xq28	X:154398065-154402339	RPL10, DXS648, QM, AUTSX5, MRXS35	Ribosomal protein L10	312173	RPL10	6134	ENSG00000147403,ENST00000369817;;;ENST00000369817		Intellectual developmental disorder, X-linked syndromic 35	300998	XLR	3	Rpl10
+Xq28	X:154411539-154421726	TAFAZZIN, TAZ, EFE2, BTHS, CMD3A, LVNCX	Tafazzin	300394	TAFAZZIN	6901	ENSG00000102125,ENST00000601016;;;ENST00000601016		Barth syndrome	302060	XLR	3	Tafazzin
+Xq28	X:154428677-154436516	ATP6AP1, ATP6IP1, ATP6S1, VATPS1	ATPase, H+ transporting, lysosomal, accessory protein 1	300197	ATP6AP1	537	ENSG00000071553,ENST00000369762;;;ENST00000369762		Immunodeficiency 47	300972	XLR	3	Atp6ap1
+Xq28	X:154437154-154443467	GDI1, RABGD1A, MRX41, MRX48, XLID41	GDP dissociation inhibitor 1	300104	GDI1	2664	ENSG00000203879,ENST00000447750;;;ENST00000447750		Intellectual developmental disorder, X-linked 41	300849	XLD	3	Gdi1
+Xq28	X:154444141-154450654	FAM50A, DXS9928E, HXC26, MRXSA	Family with sequence similarity 50, member A	300453	FAM50A	9130	ENSG00000071859,ENST00000393600;;;ENST00000393600		Intellectual developmental disorder, X-linked syndromic, Armfield type	300261	XLR	3	Fam50a
+Xq28	X:154477775-154479281	LAGE3, ITBA2, GAMOS2	L antigen family member 3	300060	LAGE3	8270	ENSG00000196976,ENST00000357360;;;ENST00000357360		Galloway-Mowat syndrome 2, X-linked	301006	XLR	3	Lage3
+Xq28	X:154531390-154547569	G6PD, G6PD1, CNSHA1	Glucose-6-phosphate dehydrogenase	305900	G6PD	2539	ENSG00000160211,ENST00000393562;;;ENST00000393562		{Resistance to malaria due to G6PD deficiency}	611162		3	G6pd2,G6pdx
+Xq28	X:154531390-154547569	G6PD, G6PD1, CNSHA1	Glucose-6-phosphate dehydrogenase	305900	G6PD	2539	ENSG00000160211,ENST00000393562;;;ENST00000393562		Anemia, congenital, nonspherocytic hemolytic, 1, G6PD deficient	300908	XL	3	G6pd2,G6pdx
+Xq28	X:154541238-154565046	IKBKG, NEMO, FIP3, IP, EDAID1, IMD33, SAIDX	Inhibitor of nuclear factor kappa B kinase, regulatory subunit gamma	300248	IKBKG	8517	ENSG00000269335,ENST00000594239;;;ENST00000594239		Autoinflammatory disease, systemic, X-linked	301081	XL	3	Ikbkg
+Xq28	X:154541238-154565046	IKBKG, NEMO, FIP3, IP, EDAID1, IMD33, SAIDX	Inhibitor of nuclear factor kappa B kinase, regulatory subunit gamma	300248	IKBKG	8517	ENSG00000269335,ENST00000594239;;;ENST00000594239		Ectodermal dysplasia and immunodeficiency 1	300291	XLR	3	Ikbkg
+Xq28	X:154541238-154565046	IKBKG, NEMO, FIP3, IP, EDAID1, IMD33, SAIDX	Inhibitor of nuclear factor kappa B kinase, regulatory subunit gamma	300248	IKBKG	8517	ENSG00000269335,ENST00000594239;;;ENST00000594239		Immunodeficiency 33	300636	XLR	3	Ikbkg
+Xq28	X:154541238-154565046	IKBKG, NEMO, FIP3, IP, EDAID1, IMD33, SAIDX	Inhibitor of nuclear factor kappa B kinase, regulatory subunit gamma	300248	IKBKG	8517	ENSG00000269335,ENST00000594239;;;ENST00000594239		Incontinentia pigmenti	308300	XLD	3	Ikbkg
+Xq28	X:154762864-154777689	DKC1, DKCX, CHINE1	Dyskerin	300126	DKC1	1736	ENSG00000130826,ENST00000369550;;;ENST00000369550	mutation identified in 1 CHINE1 family	?Cataracts, hearing impairment, nephrotic syndrome, and enterocolitis 1	301108	XLD	3	Dkc1
+Xq28	X:154762864-154777689	DKC1, DKCX, CHINE1	Dyskerin	300126	DKC1	1736	ENSG00000130826,ENST00000369550;;;ENST00000369550	mutation identified in 1 CHINE1 family	Dyskeratosis congenita, X-linked	305000	XLR	3	Dkc1
+Xq28	X:154835792-155022723	F8, F8C, HEMA, THPH13	Coagulation factor VIII, procoagulant component	300841	F8	2157	ENSG00000185010,ENST00000360256;;;ENST00000360256	cen-G6PD-3' end of F8C-5'-ter; 1.1Mb from telomere	Hemophilia A	306700	XLR	3	F8
+Xq28	X:154835792-155022723	F8, F8C, HEMA, THPH13	Coagulation factor VIII, procoagulant component	300841	F8	2157	ENSG00000185010,ENST00000360256;;;ENST00000360256	cen-G6PD-3' end of F8C-5'-ter; 1.1Mb from telomere	Thrombophilia 13, X-linked, due to factor VIII defect	301071	XL	3	F8
+Xq28	X:155258235-155264491	RAB39B, XLID72, WSMN, MRX72	RAB39B, member Ras oncogene family	300774	RAB39B	116442	ENSG00000155961,ENST00000369454;;;ENST00000369454		Intellectual developmental disorder, X-linked 72	300271	XLR	3	Rab39b
+Xq28	X:155258235-155264491	RAB39B, XLID72, WSMN, MRX72	RAB39B, member Ras oncogene family	300774	RAB39B	116442	ENSG00000155961,ENST00000369454;;;ENST00000369454		Waisman syndrome	311510	XLR	3	Rab39b
+Xq28	X:155489011-155612952	TMLHE, BBOX2, TMLH, TMLHED, AUTSX6	Epsilon-trimethyllysine hydroxylase	300777	TMLHE	55217	ENSG00000185973,ENST00000334398;;;ENST00000334398		{Autism, susceptibility to, X-linked 6}	300872	XLR	3	Tmlhe
+Chr.X	X:1-156040895	CCCSX	Cerebral-cerebellar-coloboma syndrome, X-linked	300864		100820758			Cerebral-cerebellar-coloboma syndrome, X-linked	300864	XLR	2	
+Chr.X	X:1-156040895	CVMRF	Cubitus valgus with impaired intellectual development and unusual facies	300471		494028			Cubitus valgus with impaired intellectual development and unusual facies	300471	XLR	2	
+Chr.X	X:1-156040895	DFCTRPS	Deafness, cataract, retinitis pigmentosa, and sperm abnormalities	300719		100188774			Deafness, cataract, retinitis pigmentosa, and sperm abnormalities	300719	XLR	2	
+Chr.X	X:1-156040895	MCOPCB1	Microphthalmia, isolated, with coloboma 1	300345		85503			Microphthalmia with coloboma 1	300345		2	
+Chr.X	X:1-156040895	MRXS32	Intellectual developmental disorder, X-linked, syndromic 32	300886		135933881			Intellectual developmental disorder, X-linked, syndromic 32	300886	XLR	2	
+Chr.X	X:1-156040895	OFD8	Orofaciodigital syndrome VIII	300484					Orofaciodigital syndrome VIII	300484	XLR	2	
+Chr.X	X:1-156040895	XLID95, MRX95	Intellectual developmental disorder, X-linked 95	300716		102775568			Intellectual developmental disorder, X-linked 95	300716	XLD	2	
+Yp11.2	Y:600001-10300000	DHRSY, CDG1DD	Dehydrogenase/reductase, Y-linked	400049		138637319		in pseudoautosomal region	Congenital disorder of glycosylation, type 1DD	301133	PR	3	
+Yp11.2	Y:624344-659411	SHOXY	Short stature homeobox, Y-linked	400020	SHOX	6473	ENSG00000185960,ENST00000686671;;;ENST00000686671	pseudoautosomal	Langer mesomelic dysplasia	249700	PR	3	
+Yp11.2	Y:624344-659411	SHOXY	Short stature homeobox, Y-linked	400020	SHOX	6473	ENSG00000185960,ENST00000686671;;;ENST00000686671	pseudoautosomal	Leri-Weill dyschondrosteosis	127300	PD	3	
+Yp11.2	Y:624344-659411	SHOXY	Short stature homeobox, Y-linked	400020	SHOX	6473	ENSG00000185960,ENST00000686671;;;ENST00000686671	pseudoautosomal	Short stature, idiopathic familial	300582		3	
+Yp11.2	Y:2786855-2787682	SRY, TDF, TDY, SRXX1, SRXY1	Sex-determining region Y (testis determining factor)	480000	SRY	6736	ENSG00000184895,ENST00000383070;;;ENST00000383070		46XX sex reversal 1	400045	XLD	4	Sry
+Yp11.2	Y:2786855-2787682	SRY, TDF, TDY, SRXX1, SRXY1	Sex-determining region Y (testis determining factor)	480000	SRY	6736	ENSG00000184895,ENST00000383070;;;ENST00000383070		46XY sex reversal 1	400044	YL	3	Sry
+Yp11.2	Y:6910697-7091683	TBL1Y, DFNY2	Transducin-beta-like 1, Y-linked	400033	TBL1Y	90665	ENSG00000092377,ENST00000383032;;;ENST00000383032	mutation identified in 1 DFNY2 family	?Deafness, Y-linked 2	400047	YL	3	Tbl1x
+Yq11	Y:10400001-26600000	DELYq11, CYDELq11, SPGFY1	Chromosome Yq11 interstitial deletion syndrome	400042				contiguous gene deletion syndrome	Spermatogenic failure, Y-linked, 1	400042	YL	4	
+Yq	Y:10400001-57227415	HEY	Hairy ears, Y-linked	425500		100188776			?Hairy ears, Y-linked	425500	YL	2	
+Yq11.221	Y:12701231-12860839	USP9Y, DFFRY, SPGFY2	Ubiquitin-specific protease-9, Y chromosome (Drosophila fat facets related, Y-linked)	400005	USP9Y	8287	ENSG00000114374,ENST00000338981;;;ENST00000338981		Spermatogenic failure, Y-linked, 2	415000	YL	3	Usp9y
+Chr.Y	Y:1-57227415	DFNY1	Deafness, Y-linked 1	400043		724074			Deafness, Y-linked 1	400043	YL	2	
+Chr.Y	Y:1-57227415	RPY	Retinitis pigmentosa, Y-linked	400004		79051			Retinitis pigmentosa, Y-linked	400004	YL	2	
+
+
+
+Phenotype Mapping Key
+1 - The disorder is placed on the map due to its association with a gene, but the underlying defect is not known.
+2 - The disorder was placed on the map by statistical methods.
+3 - The molecular basis of the disorder is known.
+4 - A contiguous gene duplication or deletion syndrome in which multiple genes are involved.
+
+
+Inheritance Abbreviations
+?AD	?Autosomal dominant
+?XLR	?X-linked recessive
+AD	Autosomal dominant
+AR	Autosomal recessive
+PD	Pseudoautosomal dominant
+PR	Pseudoautosomal recessive
+DD	Digenic dominant
+DR	Digenic recessive
+ICB	Inherited chromosomal imbalance
+IC	Isolated cases
+Mi	Mitochondrial
+Mu	Multifactorial
+SMo	Somatic mosaicism
+SMu	Somatic mutation
+XL	X-linked
+XLD	X-linked dominant
+XLR	X-linked recessive
+YL	Y-linked
+
+
+
+This search returned 6,244 entries which exceeded the maximum of 200 so the results were truncated
+You can register for MIMmatch ( https://omim.org/mimmatch/ ) to raise this limit to 1,000
+You can register for downloads ( https://omim.org/downloads/ ) and/or the API ( https://omim.org/api ) for more search/download options
+
+
+
+
+

@@ -1,0 +1,27 @@
+# You are creating this instance in Virginia, Zone A (us-east-1a)
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    command: gunicorn core.wsgi:application --bind 0.0.0.0:8000 --log-level debug --timeout 120 --workers 2 --threads 4
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    volumes:
+      - media_volume:/app/media
+      - static_volume:/app/static
+    networks:
+      - webnet
+
+
+volumes:
+  media_volume:
+  static_volume:
+
+networks:
+  webnet:
+    driver: bridge
