@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import PregeneLogo from "../assets/PREGENESCAN_BLUE_LOGO.png";
-import BackgroundLogin from "../assets/background_login.png";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 const LOGIN_API_URL = `${API_BASE_URL}/token/`;
@@ -108,126 +107,77 @@ const LoginPage = () => {
 
   return (
     // 💡 CONTAINER PRINCIPAL CORRIGIDO
-    <div
-      className="min-h-screen flex items-center justify-end p-10" // 💡 Remove centralização. 'justify-end' empurra o conteúdo para a direita
-      style={{
-        backgroundImage: `url(${BackgroundLogin})`, // Aplica o fundo de imagem
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      {/* 💡 BOX DE LOGIN: MANTIDO COM LEVES AJUSTES */}
-      <div className="bg-white p-10 rounded-xl shadow-2xl w-full max-w-sm mr-120 border border-gray-200">
-        {" "}
-        {/* Usei max-w-sm e p-10 para um box mais compacto e elegante */}
-        <div className="flex justify-center mb-6">
-          <img
-            src={PregeneLogo}
-            alt="PREGENESCAN Logo"
-            className="h-16 object-contain"
-          />
-        </div>
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
-          Acesso
-        </h2>
-        <p className="text-center text-gray-500 mb-8 text-sm">
-          Acesse sua conta para continuar.
-        </p>
-        <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Campo de E-mail/Usuário */}
-          <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              E-mail ou Usuário
-            </label>
-            <input
-              id="email"
-              type="text"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150"
+    <div className="min-h-screen flex">
+      {/* Coluna da imagem */}
+      <div className="hidden md:block w-1/2 login-background"></div>
+
+      {/* Coluna do box de login */}
+      <div className="flex flex-1 items-center justify-center p-10">
+        <div className="bg-white p-10 rounded-xl shadow-2xl w-full max-w-sm border border-gray-200">
+          <div className="flex justify-center mb-6">
+            <img
+              src={PregeneLogo}
+              alt="PREGENESCAN Logo"
+              className="h-16 object-contain"
             />
           </div>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
+            Acesso
+          </h2>
+          <p className="text-center text-gray-500 mb-8 text-sm">
+            Acesse sua conta para continuar.
+          </p>
 
-          {/* Campo de Senha */}
-          <div>
-            <label
-              htmlFor="password"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              Senha
-            </label>
-            <input
-              id="password"
-              type="password"
-              required
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150"
-            />
-          </div>
-
-          {/* Link de recuperação de senha (opcional) */}
-          <div className="text-sm text-right">
-            <a
-              href="#"
-              className="font-medium text-blue-600 hover:text-blue-500"
-            >
-              Esqueceu a senha?
-            </a>
-          </div>
-
-          {/* Exibição de Erro */}
-          {error && (
-            <div className="text-sm p-2 bg-red-100 text-red-700 rounded-lg text-center">
-              {error}
+          <form onSubmit={handleSubmit} className="space-y-5">
+            {/* Campos de login */}
+            <div>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                E-mail ou Usuário
+              </label>
+              <input
+                id="email"
+                type="text"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150"
+              />
             </div>
-          )}
 
-          {/* Botão de Submissão (Seu código original mantido) */}
-          <button
-            type="submit"
-            disabled={isLoading}
-            className={`
-                            w-full p-3 rounded-lg text-white font-semibold transition duration-200
-                            ${
-                              isLoading
-                                ? "bg-blue-400 cursor-not-allowed"
-                                : "bg-blue-600 hover:bg-blue-700"
-                            }
-                        `}
-          >
-            {isLoading ? (
-              <div className="flex justify-center items-center">
-                <svg
-                  className="animate-spin h-5 w-5 mr-3 text-white"
-                  viewBox="0 0 24 24"
-                >
-                  <circle
-                    className="opacity-25"
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="currentColor"
-                    strokeWidth="4"
-                  ></circle>
-                  <path
-                    className="opacity-75"
-                    fill="currentColor"
-                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                  ></path>
-                </svg>
-                Entrando...
-              </div>
-            ) : (
-              "Entrar"
-            )}
-          </button>
-        </form>
+            <div>
+              <label
+                htmlFor="password"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Senha
+              </label>
+              <input
+                id="password"
+                type="password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150"
+              />
+            </div>
+
+            {/* Botão */}
+            <button
+              type="submit"
+              disabled={isLoading}
+              className={`w-full p-3 rounded-lg text-white font-semibold transition duration-200 ${
+                isLoading
+                  ? "bg-blue-400 cursor-not-allowed"
+                  : "bg-blue-600 hover:bg-blue-700"
+              }`}
+            >
+              {isLoading ? "Entrando..." : "Entrar"}
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

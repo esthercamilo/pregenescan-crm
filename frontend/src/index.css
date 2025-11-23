@@ -58,3 +58,17 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+.login-background {
+  min-height: 100vh;
+  background-image: url("./assets/background_login.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .login-background {
+    background-image: none;
+  }
+}
