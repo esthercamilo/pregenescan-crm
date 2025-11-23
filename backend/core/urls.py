@@ -13,7 +13,8 @@ from rest_framework_simplejwt.views import (
 )
 
 from api.views.admin import UserRoleView, StaffUserCreateView
-from api.views.crm import PersonViewSet, PatientViewSet
+from api.views.crm import PersonViewSet, PatientViewSet, DoctorViewSet, AppointmentViewSet, ClinicalNoteViewSet, \
+    PatientRecordViewSet, PatientSandboxViewSet, PreConsultaView
 
 url = os.environ.get("URL")
 
@@ -33,6 +34,11 @@ schema_view = get_schema_view(
 router = DefaultRouter()
 router.register(r'person', PersonViewSet, basename='person')
 router.register(r'patients', PatientViewSet, basename='patient')
+router.register(r'doctors', DoctorViewSet, basename='doctor')
+router.register(r'appointments', AppointmentViewSet, basename="agenda")
+router.register(r'clinical-notes', ClinicalNoteViewSet, basename="notas")
+router.register(r"records", PatientRecordViewSet, basename="record")
+router.register(r"sandbox", PatientSandboxViewSet, basename="sandbox")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -48,7 +54,7 @@ urlpatterns = [
     path('api/me/role/', UserRoleView.as_view(), name='user_role'),
 
     path('api/staff/create/', StaffUserCreateView.as_view(), name='create_staff_user'),
-
+    path("api/preconsulta/<int:patient_id>/", PreConsultaView.as_view()),
     # path('person/', PersonViewSet.as_view({'get': 'get'}), name='person_view'),
     # path('metab/predict_neighbor/<ens_gene_id>/', PredictViewSet.as_view({'post': 'post'}), name='metab_predict_view'),
 

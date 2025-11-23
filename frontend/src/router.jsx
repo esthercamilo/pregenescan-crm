@@ -13,6 +13,8 @@ import PerfilPacientesPage from "./pages/PerfilPacientePage";
 import ProfissionaisPage from "./pages/Profissionais";
 import AgendaPage from "./pages/Agenda";
 import AdminPage from "./pages/Admin";
+import PerfilMedicoPage from "./pages/PerfilMedicoPage";
+import PreConsultaPage from "./pages/Preconsulta";
 
 // Componentes de Layout
 import Sidebar from "./components/Layout/Sidebar";
@@ -145,6 +147,16 @@ const router = createBrowserRouter([
       {
         path: "profissionais",
         element: <ProfissionaisPage />,
+      },
+
+      {
+        path: "preconsulta/:id",
+        element: <PreConsultaPage />,
+      },
+
+      {
+        path: "profissionais/:id",
+        element: <PerfilMedicoPage />,
       },
       {
         path: "agenda",

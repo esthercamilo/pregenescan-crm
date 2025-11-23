@@ -1,6 +1,7 @@
 from django.utils.text import slugify
 from rest_framework import serializers
-from api.models.crm import Person, Patient, Phone, Party, Staff
+from api.models.crm import Person, Patient, Phone, Party, Staff, Doctor, Appointment, ClinicalNote, PatientRecord, \
+    PatientSandbox
 from django.contrib.auth.models import User
 from django.contrib.auth.models import Group
 from rest_framework.serializers import ValidationError
@@ -111,6 +112,27 @@ class PatientSerializer(serializers.ModelSerializer):
         return patient
 
 
+class DoctorSerializer(serializers.ModelSerializer):
+    person = PersonSerializer()
+
+    class Meta:
+        model = Doctor
+        fields = "__all__"
+
+    def create(self, validated_data):
+        person_data = validated_data.pop('person', {})
+
+        # 1. Criar o Person (que, por sua vez, cria a Party e os Phones)
+        person_data['role'] = 'Médico'
+        person_serializer = PersonSerializer()
+        person = person_serializer.create(validated_data=person_data)
+
+        # 2. Criar o Médico
+        doctor = Doctor.objects.create(person=person, **validated_data)
+
+        return doctor
+
+
 class UserRoleSerializer(serializers.Serializer):
     """Serializer para retornar apenas o papel do usuário."""
     role = serializers.CharField(source='groups.first.name')
@@ -139,3 +161,51 @@ class StaffUserSerializer(serializers.ModelSerializer):
         staff = Staff.objects.create(person=person, **validated_data)
 
         return staff
+
+
+class AppointmentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Appointment
+        fields = "__all__"
+
+
+class ClinicalNoteSerializer(serializers.ModelSerializer):
+    doctor_name = serializers.CharField(source="doctor.person.fullname", read_only=True)
+
+    class Meta:
+        model = ClinicalNote
+        fields = [
+            "id",
+            "patient",
+            "doctor",
+            "doctor_name",
+            "text",
+            "created_at",
+            "updated_at",
+        ]
+        read_only_fields = ["doctor", "created_at", "updated_at"]
+
+
+class PatientRecordSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PatientRecord
+        fields = "__all__"
+        read_only_fields = ["author", "created_at"]
+
+
+class PatientSandboxSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PatientSandbox
+        fields = "__all__"
+        read_only_fields = ["patient", "updated_at"]
+
+
+class DoctorPatientSerializer(serializers.ModelSerializer):
+    fullname = serializers.CharField(source='person.fullname', read_only=True)
+    cpf = serializers.CharField(source='person.cpf', read_only=True)
+    medical_record_number = serializers.CharField(read_only=True)
+    health_insurance = serializers.CharField(read_only=True)
+
+    class Meta:
+        model = Patient
+        fields = ['id', 'fullname', 'cpf', 'medical_record_number', 'health_insurance']

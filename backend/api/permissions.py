@@ -1,6 +1,8 @@
 from rest_framework import permissions
 from django.contrib.auth.models import Group
 
+#<QuerySet [<Group: Paciente>, <Group: Staff>, <Group: Médico>, <Group: Admin>]>
+
 class IsAdminUser(permissions.BasePermission):
     """
     Permite acesso apenas se o usuário for membro do grupo 'Admin'.
@@ -29,3 +31,28 @@ class IsAdmin(permissions.BasePermission):
 
         # 2. Verifica se o usuário pertence ao grupo 'Admin'
         return request.user.groups.filter(name='Admin').exists()
+
+
+class IsDoctor(permissions.BasePermission):
+    def has_permission(self, request, view):
+        return request.user.groups.filter(name="Médico").exists()
+
+class IsStaffOrDoctor(permissions.BasePermission):
+    def has_permission(self, request, view):
+        return (
+            request.user.groups.filter(name="Médico").exists() or
+            request.user.groups.filter(name="Staff").exists()
+        )
+
+class IsPatientSelf(permissions.BasePermission):
+    """Paciente só pode ver dados próprios."""
+    def has_object_permission(self, request, view, obj):
+        return obj.patient == request.user
+
+class CanEditRecord(permissions.BasePermission):
+    """Só médico pode editar o prontuário"""
+    def has_permission(self, request, view):
+        # editar = PUT PATCH DELETE
+        if request.method in ["PUT", "PATCH", "DELETE"]:
+            return request.user.groups.filter(name="Médico").exists()
+        return True

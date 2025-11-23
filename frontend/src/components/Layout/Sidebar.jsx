@@ -5,7 +5,7 @@ import PregeneLogo from "../../assets/PREGENESCAN_BLUE_LOGO.png";
 const navItems = [
   { name: "Pacientes", path: "/pacientes", icon: "🧑‍🤝‍🧑" },
   { name: "Profissionais", path: "/profissionais", icon: "👨‍⚕️" },
-  { name: "Mensagens", path: "/inbox", icon: "💬" },
+  // { name: "Mensagens", path: "/inbox", icon: "💬" },
   { name: "Agenda", path: "/agenda", icon: "📅" },
 ];
 
