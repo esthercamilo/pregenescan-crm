@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GenomicaView from "./components/Genomica";
+import Metricas from "./components/Metricas";
 
 export default function ProntuarioPage() {
   const [activeTab, setActiveTab] = useState("sumario");
@@ -49,7 +50,7 @@ export default function ProntuarioPage() {
       </aside>
 
       {/* Center Column - Tabs + Content */}
-      <main className="flex-1 overflow-y-auto p-6">
+      <main className="flex-1 p-6 h-full flex flex-col min-h-0">
         {/* Tabs */}
         <div className="border-b border-gray-200 mb-4">
           <nav className="flex space-x-4" aria-label="Tabs">
@@ -59,7 +60,7 @@ export default function ProntuarioPage() {
               { id: "prescricoes", label: "Prescrições" },
               { id: "exames", label: "Exames" },
               { id: "genomica", label: "Genômica" },
-              { id: "metricas", label: "Métricas" },
+              { id: "metricas", label: "Índices" },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -77,11 +78,11 @@ export default function ProntuarioPage() {
         </div>
 
         {/* Tab Panels */}
-        <div>
+        <div className="flex-1 min-h-0 min-w-0 overflow-y-auto">
           {activeTab === "sumario" && <div className="space-y-4"></div>}
-
           {activeTab === "evolucoes" && <div></div>}
           {activeTab === "genomica" && <GenomicaView />}
+          {activeTab === "metricas" && <Metricas />}
         </div>
       </main>
 
