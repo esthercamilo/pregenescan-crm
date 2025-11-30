@@ -6,7 +6,7 @@ const navItems = [
   { name: "Pacientes", path: "/pacientes", icon: "🧑‍🤝‍🧑" },
   { name: "Profissionais", path: "/profissionais", icon: "👨‍⚕️" },
   // { name: "Mensagens", path: "/inbox", icon: "💬" },
-  { name: "Agenda", path: "/agenda", icon: "📅" },
+  // { name: "Agenda", path: "/agenda", icon: "📅" },
 ];
 
 const Sidebar = () => {

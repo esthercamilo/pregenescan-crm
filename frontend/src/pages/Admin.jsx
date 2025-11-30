@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const AdminPage = () => {
   const [formData, setFormData] = useState({
@@ -145,6 +146,43 @@ const AdminPage = () => {
           {isLoading ? "Criando Usuário..." : "Criar Usuário Staff"}
         </button>
       </form>
+
+      <div className="border-t">
+        <br />
+        <br />
+
+        <Link
+          to={"/sandbox/1"}
+          className="text-blue-600 hover:text-blue-900 font-medium"
+          title="Ver Perfil"
+          onClick={(e) => {
+            // 1. Previne a navegação interna padrão do Link
+            e.preventDefault();
+
+            // 2. Abre a URL em uma nova aba
+            window.open("/sandbox/1", "_blank");
+          }}
+        >
+          Sandbox do paciente
+        </Link>
+
+        <br />
+        <br />
+        <Link
+          to={"/prontuario/1"}
+          className="text-blue-600 hover:text-blue-900 font-medium"
+          title="Ver Perfil"
+          onClick={(e) => {
+            // 1. Previne a navegação interna padrão do Link
+            e.preventDefault();
+
+            // 2. Abre a URL em uma nova aba
+            window.open("/prontuario/1", "_blank");
+          }}
+        >
+          Área do médico
+        </Link>
+      </div>
     </div>
   );
 };

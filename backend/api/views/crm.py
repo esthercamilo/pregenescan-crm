@@ -38,6 +38,22 @@ class AppointmentViewSet(viewsets.ModelViewSet):
     queryset = Appointment.objects.all()
     serializer_class = AppointmentSerializer
 
+    @action(detail=False, methods=["get"], url_path="doctor-patients")
+    def doctor_patients(self, request):
+        doctor_id = request.query_params.get("doctor")
+        if not doctor_id:
+            return Response({"error": "Doctor ID required"}, status=400)
+
+        # Filtra agendamentos do médico
+        appointments = Appointment.objects.filter(doctor_id=doctor_id)
+
+        # Pega IDs únicos de pacientes
+        patient_ids = appointments.values_list("patient_id", flat=True).distinct()
+
+        patients = Patient.objects.filter(id__in=patient_ids)
+        serializer = PatientSerializer(patients, many=True)
+        return Response(serializer.data)
+
 
 class ClinicalNoteViewSet(viewsets.ModelViewSet):
     queryset = ClinicalNote.objects.all()

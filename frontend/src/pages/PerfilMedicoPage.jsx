@@ -13,22 +13,16 @@ const PerfilMedicoPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState("geral");
+  const [patients, setPatients] = useState([]);
 
   const fetchMedico = async () => {
     setLoading(true);
     setError(null);
-
     try {
       const response = await fetch(`${API_URL}${id}/`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
+        headers: { Authorization: `Bearer ${token}` },
       });
-
       if (!response.ok) throw new Error();
-
       const data = await response.json();
       setMedico(data);
     } catch (err) {
@@ -38,8 +32,24 @@ const PerfilMedicoPage = () => {
     }
   };
 
+  const fetchPacientes = async () => {
+    try {
+      const res = await fetch(
+        `${API_BASE_URL}/appointments/doctor-patients/?doctor=${id}`,
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+      const data = await res.json();
+      setPatients(data);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   useEffect(() => {
-    if (id) fetchMedico();
+    if (id) {
+      fetchMedico();
+      fetchPacientes();
+    }
   }, [id]);
 
   if (loading) {
@@ -73,7 +83,6 @@ const PerfilMedicoPage = () => {
         <h1 className="text-4xl font-bold text-gray-900">
           Perfil de: {person.fullname}
         </h1>
-
         <Link
           to="/profissionais"
           className="text-blue-600 hover:underline font-medium"
@@ -112,8 +121,8 @@ const PerfilMedicoPage = () => {
               setActiveTab={setActiveTab}
             />
             <TabButton
-              label="Consultas"
-              tabKey="consultas"
+              label="Pacientes"
+              tabKey="pacientes"
               activeTab={activeTab}
               setActiveTab={setActiveTab}
             />
@@ -124,12 +133,45 @@ const PerfilMedicoPage = () => {
           {activeTab === "geral" && (
             <VisaoGeralMedico medico={medico} person={person} />
           )}
-
           {activeTab === "agenda" && <AgendaTab doctorId={id} token={token} />}
-
-          {activeTab === "consultas" && (
-            <div className="p-4 text-gray-600">
-              Consultas atendidas (a implementar)
+          {activeTab === "pacientes" && (
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-200 rounded-lg">
+                <thead className="bg-gray-50">
+                  <tr>
+                    <th className="px-4 py-2 text-left text-sm font-medium text-gray-500">
+                      Nome
+                    </th>
+                    <th className="px-4 py-2 text-left text-sm font-medium text-gray-500">
+                      Nascimento
+                    </th>
+                    <th className="px-4 py-2 text-left text-sm font-medium text-gray-500">
+                      Plano de Saúde
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {patients.map((p) => (
+                    <tr
+                      key={p.id}
+                      className="hover:bg-gray-100 cursor-pointer"
+                      onClick={() =>
+                        (window.location.href = `/pacientes/${p.id}`)
+                      }
+                    >
+                      <td className="px-4 py-2 text-gray-800">
+                        {p.person.fullname}
+                      </td>
+                      <td className="px-4 py-2 text-gray-800">
+                        {p.person.birth_date}
+                      </td>
+                      <td className="px-4 py-2 text-gray-800">
+                        {p.health_insurance || "N/A"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           )}
         </div>
@@ -164,18 +206,15 @@ const VisaoGeralMedico = ({ medico, person }) => (
       <h3 className="text-lg font-semibold text-blue-600 mb-3 border-b pb-1">
         Informações Profissionais
       </h3>
-
       <DetailItem label="CRM" value={medico.crm} />
       <DetailItem label="Especialidade" value={medico.specialty} />
       <DetailItem label="ID no Sistema" value={medico.id} />
       <DetailItem label="Usuário" value={person.user?.username || "N/A"} />
     </div>
-
     <div>
       <h3 className="text-lg font-semibold text-blue-600 mb-3 border-b pb-1">
         Dados Pessoais
       </h3>
-
       <DetailItem label="Nome Completo" value={person.fullname} />
       <DetailItem label="Nascimento" value={person.birth_date || "N/A"} />
       <DetailItem label="Telefone" value={person.phone || "N/A"} />

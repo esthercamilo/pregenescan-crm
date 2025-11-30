@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import NovoPacienteModal from "../components/NovoPacienteModal";
 import { FaUser, FaWhatsapp, FaTrashAlt } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 // URL base do seu endpoint de pacientes
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
@@ -29,7 +30,7 @@ const PacientesPage = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+  const navigate = useNavigate();
   const token = localStorage.getItem("authToken");
 
   const headers = [
@@ -58,6 +59,8 @@ const PacientesPage = () => {
       setPacientes(data);
     } catch (error) {
       console.error("Erro ao buscar pacientes:", error);
+      alert("Sessão expirou. Você será deslogado.");
+      navigate("/login");
     } finally {
       setLoading(false);
     }

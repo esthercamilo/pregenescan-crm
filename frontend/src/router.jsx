@@ -5,7 +5,6 @@ import {
   Navigate,
 } from "react-router-dom";
 
-// Importe suas páginas
 import LoginPage from "./pages/Login";
 import InboxPage from "./pages/Inbox";
 import PacientesPage from "./pages/Pacientes";
@@ -16,21 +15,23 @@ import AdminPage from "./pages/Admin";
 import PerfilMedicoPage from "./pages/PerfilMedicoPage";
 import PreConsultaPage from "./pages/Preconsulta";
 
-// Componentes de Layout
+import ProntuarioPage from "./pages/Prontuario/ProntuarioPage";
+import SandboxPage from "./pages/Sandbox/SandboxPage";
+
 import Sidebar from "./components/Layout/Sidebar";
 import Header from "./components/Layout/Header";
 
 import { useAuth } from "./context/AuthContext";
 
-// Componente de Layout Autenticado (Container para rotas privadas)
-// trecho de src/router.jsx
+/* ----------------------------
+   PrivateLayout (com sidebar)
+----------------------------- */
 const PrivateLayout = ({
   allowedRoles = ["Admin", "Médico", "Staff", "Paciente"],
 }) => {
   const { isAuthenticated, userRole, isLoading } = useAuth();
 
   if (isLoading) {
-    // 1. Carregando: Mostra um placeholder enquanto o status é verificado
     return (
       <div className="p-8 text-center text-blue-600">
         Verificando autenticação...
@@ -39,52 +40,10 @@ const PrivateLayout = ({
   }
 
   if (!isAuthenticated) {
-    // 2. Não Autenticado: Redireciona para a página de Login
     return <Navigate to="/login" replace />;
   }
 
-  const router = createBrowserRouter([
-    {
-      path: "/login",
-      element: <LoginPage />,
-    },
-    {
-      // 💡 Rota Mãe: Proteção de Autenticação Geral
-      path: "/",
-      element: <PrivateLayout />, // Sem allowedRoles = todos logados acessam
-      children: [
-        // ... Rotas existentes (Acessíveis a todos os papéis logados) ...
-        {
-          index: true,
-          element: <Navigate to="/pacientes" replace />,
-        },
-        // ... (outras rotas como /inbox, /pacientes, /agenda) ...
-      ],
-    },
-    {
-      // 💡 Rota Específica para Admin (Contém a restrição de Role)
-      // Usa o PrivateLayout e passa a permissão.
-      path: "/admin",
-      element: <PrivateLayout allowedRoles={["Admin"]} />, // APENAS ADMIN PODE ACESSAR ESTA ROTA
-      children: [
-        {
-          index: true,
-          element: <AdminPage />,
-        },
-      ],
-    },
-    // Rota para páginas não encontradas
-    // ...
-  ]);
-
-  // 3. Verificação de Permissão (Role)
-  // O usuário está logado, mas o papel dele está na lista de papéis permitidos para esta rota?
   if (!allowedRoles.includes(userRole)) {
-    // Redireciona para o dashboard ou para uma página de "acesso negado"
-    // Usamos /pacientes como dashboard padrão por enquanto
-    console.warn(
-      `Acesso negado: Usuário '${userRole}' não tem permissão para esta rota.`
-    );
     return <Navigate to="/pacientes" replace />;
   }
 
@@ -92,7 +51,6 @@ const PrivateLayout = ({
     <div className="flex-1 flex h-screen bg-gray-50 font-sans">
       <Sidebar />
 
-      {/* ESTE div deve ter flex-1 para ocupar TODO o espaço restante ao lado do Sidebar */}
       <div className="flex-1 flex flex-col">
         <Header />
         <main className="flex-1 overflow-y-auto p-8">
@@ -102,69 +60,75 @@ const PrivateLayout = ({
     </div>
   );
 };
-// ...
+
+/* ------------------------------------
+   BareLayout (SEM sidebar e header)
+------------------------------------- */
+const BareLayout = () => {
+  const { isAuthenticated, isLoading } = useAuth();
+
+  if (isLoading) {
+    return (
+      <div className="p-8 text-center text-blue-600">
+        Verificando autenticação...
+      </div>
+    );
+  }
+
+  if (!isAuthenticated) {
+    return <Navigate to="/login" replace />;
+  }
+
+  return (
+    <div className="p-6">
+      <Outlet />
+    </div>
+  );
+};
+
+/* ----------------------------
+   ROTAS
+----------------------------- */
 const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage />,
   },
 
+  /*  ADMIN COM SIDEBAR */
   {
     path: "/admin",
     element: <PrivateLayout allowedRoles={["Admin"]} />,
-    children: [
-      {
-        // 💡 ESTE INDEX: TRUE É CRUCIAL
-        index: true,
-        element: <AdminPage />,
-      },
-    ],
+    children: [{ index: true, element: <AdminPage /> }],
   },
 
+  /* ROTAS NORMAIS COM SIDEBAR */
   {
     path: "/",
     element: <PrivateLayout />,
     children: [
-      {
-        index: true, // Rota padrão ( / )
-        element: <Navigate to="/pacientes" replace />,
-      },
-      {
-        path: "inbox",
-        element: <InboxPage />,
-      },
-      {
-        path: "pacientes",
-        element: <PacientesPage />,
-      },
-
-      ,
-      {
-        path: "pacientes/:id",
-        element: <PerfilPacientesPage />,
-      },
-
-      {
-        path: "profissionais",
-        element: <ProfissionaisPage />,
-      },
-
-      {
-        path: "preconsulta/:id",
-        element: <PreConsultaPage />,
-      },
-
-      {
-        path: "profissionais/:id",
-        element: <PerfilMedicoPage />,
-      },
-      {
-        path: "agenda",
-        element: <AgendaPage />,
-      },
+      { index: true, element: <Navigate to="/pacientes" replace /> },
+      { path: "inbox", element: <InboxPage /> },
+      { path: "pacientes", element: <PacientesPage /> },
+      { path: "pacientes/:id", element: <PerfilPacientesPage /> },
+      { path: "profissionais", element: <ProfissionaisPage /> },
+      { path: "profissionais/:id", element: <PerfilMedicoPage /> },
+      { path: "preconsulta/:id", element: <PreConsultaPage /> },
+      { path: "agenda", element: <AgendaPage /> },
     ],
   },
-  // Rota para páginas não encontradas
+
+  /* PÁGINAS SEM SIDEBAR (layout simples) */
+  {
+    path: "/",
+    element: <BareLayout />,
+    children: [
+      { path: "prontuario/:id", element: <ProntuarioPage /> },
+      { path: "sandbox/:id", element: <SandboxPage /> },
+    ],
+  },
+
+  /* 404 */
   {
     path: "*",
     element: (
@@ -173,8 +137,5 @@ const router = createBrowserRouter([
   },
 ]);
 
-const AppRouter = () => {
-  return <RouterProvider router={router} />;
-};
-
+const AppRouter = () => <RouterProvider router={router} />;
 export default AppRouter;
